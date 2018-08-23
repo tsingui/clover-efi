@@ -1,0 +1,1 @@
+fpt.exe -f x7947.rom

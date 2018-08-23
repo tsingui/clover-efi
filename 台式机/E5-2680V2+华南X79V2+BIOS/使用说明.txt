@@ -1,0 +1,23 @@
+合适主板
+    华南V2.46 V2.47 X79，郎宁8内存X79，双为8内存X79
+合适CPU E5 2680 V2，不是这个CPU的，自行替换SSDT.AML就行了，不知道的可以直接删除
+显卡GK106核心（GTX645 GTX650TIB GTX660），10.3有花屏，不建议使用
+
+安装教程
+    1.刷新主板BIOS，把压缩包里面的BIOS文件夹下的所有文件复制到U盘根目录（FAT32格式，NTFS除非你DOS工具箱有NTFS命令，不然读取不到），进入DOS工具箱，定位1.bat刷新
+    2.制作MAC OS安装U盘（啥，你不会，那你玩鸡巴黑苹果，请认真使用你的WINDOWS），把压缩包的EFI目录放到U盘的EFI分区下（如果之前已有，请先删除旧的EFI目录）
+    3.打开EFI分区,EFI目录，CLOVER目录，你会发现一个config-AMD-crad.plist和config-NVIDIA-card.plist，如果你用A卡就把config-AMD-crad.plist改名config.plist，N卡就把config-NVIDIA-card.plist改名config.plist。
+    4.直接安装吧
+
+
+测试环境     
+    10.3-10.3.2  无问题   7档变频，未加入降频，2.8G起步到单核3.6G，自己可以修改SSDT.AML
+    GK106显卡测试发现花屏请勿使用
+    最好关闭BIOS GSM（如果你的显卡支持UEFI）
+
+
+BIOS修正
+    1.替换开机LOGO为苹果 
+    2.增加NVME模块
+    3.修订SSDT表
+    4.开放CPU倍频超频（前提是你CPU不锁倍频），增加内存超频（可以手动设置800 1333 1600 1866并且可以生效）
