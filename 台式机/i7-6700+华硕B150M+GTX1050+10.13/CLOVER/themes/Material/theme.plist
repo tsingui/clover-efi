@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Badruzeus</string>
+	<key>Description</key>
+	<string>Colorful Clover theme with simple UI based on Material Design supports up to 1080p display resolution. Dark background is also included. Version: 1.3</string>
+	<key>Theme</key>
+	<dict>
+		<key>Background</key>
+		<dict>
+			<key>Path</key>
+			<string>background.png</string>
+			<key>Type</key>
+			<string>Tile</string>
+		</dict>
+		<key>Badges</key>
+		<dict>
+			<key>Inline</key>
+			<false/>
+			<key>Scale</key>
+			<integer>5</integer>
+			<key>Show</key>
+			<true/>
+			<key>Swap</key>
+			<true/>
+		</dict>
+		<key>Banner</key>
+		<string>Logo.png</string>
+		<key>Font</key>
+		<dict/>
+		<key>Selection</key>
+		<dict>
+			<key>Big</key>
+			<string>selection_big.png</string>
+			<key>Color</key>
+			<string>0xFFFFFF7F</string>
+			<key>Small</key>
+			<string>selection_small.png</string>
+		</dict>
+	</dict>
+	<key>Version</key>
+	<string>1.3</string>
+	<key>Year</key>
+	<string>2017</string>
+</dict>
+</plist>
