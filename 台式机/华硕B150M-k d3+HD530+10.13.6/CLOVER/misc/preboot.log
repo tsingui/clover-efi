@@ -1,0 +1,544 @@
+0:100  0:100  MemLog inited, TSC freq: 2712376310
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 22.7.2018,  9:20:17 (GMT)
+0:100  0:000  Starting Clover revision: 4596 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sachin/src/edk2/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 13 | OS: 10.13.6 | XCODE: 9.4.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000) @BE16B698
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 DIMM_A1
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingston
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 14261830
+0:100  0:000  SmbiosTable.Type17->PartNumber = 99U5584-005.A00LF 
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 DIMM_B1
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'System Product Name' with board 'B150M-K D3'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=506E3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               40004
+0:100  0:000   TSC/CCC Information Leaf:
+0:100  0:000    numerator     : 226
+0:100  0:000    denominator   : 2
+0:100  0:000   Calibrated ARTFrequency: 24003330
+0:100  0:000  MSR 0xE2 before patch 7E000000
+0:100  0:000  MSR 0xCE              00080838_F1011B00
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 27.0/8
+0:100  0:000  Turbo: 31/32/33/33
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2700 MHz
+0:100  0:000  TSC: 2700 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 191F class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 1912 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 530 (Intel)
+0:100  0:000  PCI (00|00:14.00) : 8086 A12F class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 A13A class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 A102 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 A114 class=060400
+0:100  0:000  PCI (00|00:1C.07) : 8086 A117 class=060400
+0:100  0:000  PCI (00|02:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1D.00) : 8086 A118 class=060400
+0:100  0:000  PCI (00|00:1F.00) : 8086 A148 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 A121 class=058000
+0:100  0:000  PCI (00|00:1F.03) : 8086 A170 class=040300
+0:100  0:000  PCI (00|00:1F.04) : 8086 A123 class=0C0500
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 0 bytes
+0:104  0:003  EFI\CLOVER\config.plist loaded: Success
+0:104  0:000  === [ GetListOfThemes ] ===================================
+0:105  0:001  - [00]: bluemac
+0:107  0:001  - [01]: random
+0:108  0:001  - [01]: embedded
+0:109  0:001  === [ Found config plists ] ===============================
+0:109  0:000  - config.plist
+0:109  0:000  === [ GetEarlyUserSettings ] ==============================
+0:109  0:000  timeout set to 5
+0:109  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:109  0:000  KextsToPatch: 2 requested
+0:109  0:000   - [00]: com.apple.driver.usb.AppleUSBXHCI (change 15 port limit to 26 in XHCI kext (credit FredWst)) :: MatchOS: 10.13.6 :: BinPatch :: data len: 8
+0:109  0:000   - [01]: IOAHCIBlockStorage (Enable TRIM support for non-Apple SSD) :: BinPatch :: data len: 10
+0:109  0:000  Default theme: bluemac
+0:109  0:000  Hiding entries with string Windows
+0:109  0:000  Hiding entries with string BOOTX64.EFI
+0:109  0:000  === [ LoadDrivers ] =======================================
+0:109  0:000  Loading apfs.efi  status=Success
+0:112  0:002   - driver needs connecting
+0:112  0:000  Loading AppleImageCodec-64.efi  status=Success
+0:113  0:000  Loading AppleKeyAggregator-64.efi  status=Success
+0:113  0:000  Loading AppleUITheme-64.efi  status=Success
+0:115  0:001  Loading AptioInputFix.efi  status=Success
+0:115  0:000  Loading AptioMemoryFix.efi  status=Success
+0:117  0:001  Loading DataHubDxe-64.efi  status=Success
+0:120  0:003  Loading Fat-64.efi  status=Success
+0:120  0:000   - driver needs connecting
+0:120  0:000  Loading FirmwareVolume-64.efi  status=Success
+0:120  0:000  Loading FSInject-64.efi  status=Success
+0:121  0:000  Loading HFSPlus-64.efi  status=Success
+0:122  0:000   - driver needs connecting
+0:122  0:000  Loading HFSPlus.efi  status=Success
+0:122  0:000   - driver needs connecting
+0:122  0:000  Loading NTFS.efi  status=Success
+0:124  0:001   - driver needs connecting
+0:124  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:124  0:000  Loading PartitionDxe-64.efi  status=Success
+0:124  0:000   - driver needs connecting
+0:124  0:000  Loading SMCHelper-64.efi  status=Success
+0:125  0:000  Loading UsbKbDxe-64.efi  status=Success
+0:126  0:001   - driver needs connecting
+0:126  0:000  Loading UsbMouseDxe-64.efi  status=Success
+0:126  0:000   - driver needs connecting
+0:126  0:000  8 drivers needs connecting ...
+0:126  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:126  0:000  Partition driver loaded: 
+0:126  0:000  HFS+ driver loaded
+0:126  0:000  APFS driver loaded
+0:126  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:570  0:444  === [ InitScreen ] ========================================
+0:570  0:000  SetMaxResolution: found best mode 4: 1920x1080
+0:570  0:000   - already set
+0:570  0:000  Console modes reported: 4, available modes:
+0:570  0:000   - [01]: 80x25 (current mode)
+0:570  0:000   - [02]: 80x50
+0:570  0:000   - [03]: 100x31
+0:570  0:000   - [04]: 240x56
+0:570  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+0:570  0:000  === [ GetMacAddress ] =====================================
+0:570  0:000  === [ ScanSPD ] ===========================================
+0:570  0:000  SMBus device : 8086 A123 class=0C0500 status=Success
+0:570  0:000  SMBus CmdReg: 0x3
+0:570  0:000  Scanning SMBus [8086:A123], mmio: 0xF712A004, ioport: 0xF040, hostc: 0x11
+0:570  0:000  Slots to scan [8]...
+0:571  0:000  SPD[0]: Type 11 @0x50
+0:589  0:017  DDR speed 1600MHz
+0:589  0:000  Slot: 0 Type 24 4096MB 1600MHz Vendor=Kingston PartNo=99U5584-005.A00LF SerialNo=0904010A0B0D010E
+0:590  0:000  === [ GetAcpiTablesList ] =================================
+0:590  0:000  Get Acpi Tables List from RSDT:
+0:590  0:000   - [00]: FACP  A M I  len=132
+0:590  0:000   - [01]: APIC  A M I  len=132
+0:590  0:000   - [02]: FPDT  A M I  len=68
+0:590  0:000   - [03]: FIDT  A M I  len=156
+0:590  0:000   - [04]: MCFG  A M I  len=60
+0:590  0:000   - [05]: HPET  A M I  len=56
+0:590  0:000   - [06]: SSDT  SataTabl len=877
+0:590  0:000   - [07]: LPIT  SKL len=148
+0:590  0:000   - [08]: SSDT  sensrhub len=584
+0:590  0:000   - [09]: SSDT  PtidDevc len=11182
+0:590  0:000   - [10]: SSDT  Ther_Rvp len=3043
+0:590  0:000   - [11]: SSDT  zpodd len=1187
+0:590  0:000   - [12]: DBGP   len=52
+0:590  0:000   - [13]: DBG2   len=84
+0:590  0:000   - [14]: SSDT  xh_rvp08 len=1797
+0:590  0:000   - [15]: SSDT  SaSsdt  len=21337
+0:590  0:000   - [16]: UEFI   len=66
+0:590  0:000   - [17]: SSDT  CpuSsdt len=3699
+0:590  0:000   - [18]: ASF!   HCG len=165
+0:590  0:000   - [19]: BGRT  A M I  len=56
+0:590  0:000  Calibrated TSC Frequency = 2712376310 = 2712MHz
+0:590  0:000  === [ GetUserSettings ] ===================================
+0:590  0:000  USB FixOwnership: yes
+0:590  0:000  Dropping 1 tables:
+0:590  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+0:590  0:000           - set table: 52414D44,                0 to drop: no
+0:590  0:000   - final DSDT Fix mask=00000000
+0:590  0:000  PatchesDSDT: 3 requested
+0:590  0:000   - [00]: (change GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:590  0:000   - [01]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:590  0:000   - [02]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:590  0:000  PluginType: 1
+0:590  0:000  Using ProductName from config: iMac17,1
+0:590  0:000  Using latest BiosVersion from clover
+0:590  0:000  BiosVersion: IM171.88Z.0154.B00.1805021829
+0:590  0:000  BiosReleaseDate: 05/02/2018
+0:590  0:000  Using FirmwareFeatures from config: 0xFC0FE136
+0:590  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+0:590  0:000  Board-ID set from config as Mac-B809C3757DA9BB8D
+0:590  0:000  BoardType: 0xA
+0:590  0:000  ChassisType: 0x9
+0:593  0:002  === [ Found DSDT tables ] =================================
+3:434  2:841  === [ ScanVolumes ] =======================================
+3:434  0:000  Found 18 volumes with blockIO
+3:434  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+3:435  0:001          Result of bootcode detection: bootable unknown (legacy)
+3:435  0:000          USB volume
+3:435  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x1743B7C8,0x103000,0xD6B3F4)
+3:436  0:001          Result of bootcode detection: bootable Windows (vista,win)
+3:436  0:000          USB volume
+3:437  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+3:438  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+3:438  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+3:439  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:441  0:002          This is SelfVolume !!
+3:441  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F40FE969-0EF3-4073-902D-FD6FFB1C20A1,0x96800,0x3F800)
+3:442  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,63CFD1EA-81B0-4540-A262-ECB63E382C37,0xD6022,0x60E2E4B)
+3:443  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:443  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,B3F6E5BC-9FF7-45C1-B5B3-62BCA45691B0,0x61B9000,0x190000)
+3:443  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:443  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,6B59E6D3-1E18-479C-AD52-1AD96120D220,0x6349800,0x18D000)
+3:444  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:444  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)
+3:444  0:000          Result of bootcode detection: bootable unknown (legacy)
+3:444  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,CACA28CB-A4AF-416F-A4C8-CBA6E0CD275D,0x800,0x95800)
+3:445  0:000          Result of bootcode detection: bootable Windows (win)
+3:447  0:002  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,52828BD7-870C-4954-9552-5D326CCB07BA,0x96000,0x40000)
+3:448  0:000          Result of bootcode detection: bootable unknown (legacy)
+3:448  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,DFC7490B-0ABD-46B3-9220-793781926F34,0xD6000,0x1D17C559)
+3:448  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:448  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(4,GPT,F0FBD1E5-5D25-46D6-9B65-9ADC040576BF,0x1D252560,0x1D133AAF)
+3:449  0:000          Result of bootcode detection: bootable Windows (vista,win)
+3:449  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+3:449  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E9C1B0C7B5D8AD35BDA55A8D17961611)
+3:449  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AF7818E8E4FD9C41B8C1239D905C8F7F)
+3:449  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7ACB6F740E84F947B60F70BD85EF7007)
+3:449  0:000  === [ InitTheme ] =========================================
+3:459  0:009  Using theme 'bluemac' (EFI\CLOVER\themes\bluemac)
+3:459  0:000  OS main and drive as badge
+3:461  0:002  Loading font from ThemeDir: Success
+3:462  0:000  Chosen theme bluemac
+3:462  0:000  after NVRAM boot-args=darkwake=1 nv_disable=1
+3:462  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+3:462  0:000  found AppleSMC protocol
+3:482  0:020  Registered 18 SMC keys
+3:484  0:001  === [ ScanLoader ] ========================================
+3:484  0:000  - [01]: 'U/¨UØ'
+3:484  0:000  - [04]: 'EFI'
+3:484  0:000          AddLoaderEntry for Volume Name=EFI
+3:487  0:003          AddLoaderEntry for Volume Name=EFI
+3:487  0:000          skipped because entry is hidden
+3:487  0:000  - [06]: ''
+3:487  0:000  - [07]: ''
+3:487  0:000  - [08]: ''
+3:487  0:000  - [10]: 'EFI'
+3:487  0:000  - [12]: ''
+3:487  0:000  - [13]: ''
+3:487  0:000  - [14]: 'Preboot'
+3:497  0:009          AddLoaderEntry for Volume Name=Preboot
+3:508  0:010      hibernated: set as never
+3:513  0:005          AddLoaderEntry for Volume Name=Preboot
+3:535  0:022  - [15]: 'macOS'
+3:627  0:091          AddLoaderEntry for Volume Name=macOS
+3:646  0:018      hibernated: set as never
+3:657  0:010  - [16]: 'Recovery'
+3:665  0:008          AddLoaderEntry for Volume Name=Recovery
+3:679  0:014  - [17]: 'VM'
+3:680  0:000  === [ AddCustomTool ] =====================================
+3:682  0:002  found tool \EFI\CLOVER\tools\Shell64U.efi
+3:682  0:000  Checking EFI partition Volume 4 for Clover
+3:682  0:000   Found Clover
+3:683  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+3:683  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efii
+3:683  0:000    - Volume: 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)'
+3:683  0:000    - LoaderPath: '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+3:683  0:000    - Guid = 4B1BCFB6-44FF-416A-B9C9-78EDE44E053D
+3:683  0:000  === [ FindStartupDiskVolume ] =============================
+3:683  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+3:683  0:000     - searching for that partition and loader '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+3:683  0:000      - found entry 1. 'Boot FileVault Prebooter from Preboot', Volume 'Preboot', '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+3:683  0:000  Boot redirected to Entry 1. 'Boot FileVault Prebooter from Preboot'
+3:683  0:000  DefaultIndex=1 and MainMenu.EntryCount=11
+3:813  0:130  GUI ready
+7:484  3:670  ReinitSelfLib after theme change
+7:484  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+7:484  0:000  === [ ScanVolumes ] =======================================
+7:484  0:000  Found 18 volumes with blockIO
+7:484  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+7:485  0:001          Result of bootcode detection: bootable unknown (legacy)
+7:485  0:000          USB volume
+7:485  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x1743B7C8,0x103000,0xD6B3F4)
+7:486  0:001          Result of bootcode detection: bootable Windows (vista,win)
+7:486  0:000          USB volume
+7:487  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+7:492  0:005  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+7:492  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+7:493  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:493  0:000          This is SelfVolume !!
+7:493  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F40FE969-0EF3-4073-902D-FD6FFB1C20A1,0x96800,0x3F800)
+7:494  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,63CFD1EA-81B0-4540-A262-ECB63E382C37,0xD6022,0x60E2E4B)
+7:494  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:494  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,B3F6E5BC-9FF7-45C1-B5B3-62BCA45691B0,0x61B9000,0x190000)
+7:495  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:495  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,6B59E6D3-1E18-479C-AD52-1AD96120D220,0x6349800,0x18D000)
+7:495  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:495  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)
+7:496  0:000          Result of bootcode detection: bootable unknown (legacy)
+7:496  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,CACA28CB-A4AF-416F-A4C8-CBA6E0CD275D,0x800,0x95800)
+7:496  0:000          Result of bootcode detection: bootable Windows (win)
+7:496  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,52828BD7-870C-4954-9552-5D326CCB07BA,0x96000,0x40000)
+7:497  0:000          Result of bootcode detection: bootable unknown (legacy)
+7:497  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,DFC7490B-0ABD-46B3-9220-793781926F34,0xD6000,0x1D17C559)
+7:498  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:498  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(4,GPT,F0FBD1E5-5D25-46D6-9B65-9ADC040576BF,0x1D252560,0x1D133AAF)
+7:498  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:498  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+7:498  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E9C1B0C7B5D8AD35BDA55A8D17961611)
+7:498  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AF7818E8E4FD9C41B8C1239D905C8F7F)
+7:498  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7ACB6F740E84F947B60F70BD85EF7007)
+7:499  0:000  Chosen theme bluemac
+7:499  0:000  after NVRAM boot-args=darkwake=1 nv_disable=1
+7:499  0:000  === [ ScanLoader ] ========================================
+7:499  0:000  - [01]: 'U/¨UØ'
+7:499  0:000  - [04]: 'EFI'
+7:499  0:000          AddLoaderEntry for Volume Name=EFI
+7:500  0:000          AddLoaderEntry for Volume Name=EFI
+7:500  0:000  - [06]: ''
+7:500  0:000  - [07]: ''
+7:500  0:000  - [08]: ''
+7:500  0:000  - [10]: 'EFI'
+7:500  0:000  - [12]: ''
+7:500  0:000  - [13]: ''
+7:500  0:000  - [14]: 'Preboot'
+7:509  0:008          AddLoaderEntry for Volume Name=Preboot
+7:518  0:008      hibernated: set as never
+7:522  0:003          AddLoaderEntry for Volume Name=Preboot
+7:544  0:022  - [15]: 'macOS'
+7:602  0:058          AddLoaderEntry for Volume Name=macOS
+7:617  0:014      hibernated: set as never
+7:628  0:010  - [16]: 'Recovery'
+7:636  0:008          AddLoaderEntry for Volume Name=Recovery
+7:651  0:014  - [17]: 'VM'
+7:651  0:000  === [ AddCustomTool ] =====================================
+7:651  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+7:651  0:000  Checking EFI partition Volume 4 for Clover
+7:651  0:000   Found Clover
+7:651  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+7:651  0:000  === [ FindStartupDiskVolume ] =============================
+7:651  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+7:651  0:000     - searching for that partition and loader '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+7:651  0:000      - found entry 2. 'Boot FileVault Prebooter from Preboot', Volume 'Preboot', '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+7:651  0:000  Boot redirected to Entry 2. 'Boot FileVault Prebooter from Preboot'
+7:651  0:000  DefaultIndex=2 and MainMenu.EntryCount=12
+10:667  3:016  ReinitSelfLib after theme change
+10:667  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+10:667  0:000  === [ ScanVolumes ] =======================================
+10:667  0:000  Found 18 volumes with blockIO
+10:667  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+10:668  0:001          Result of bootcode detection: bootable unknown (legacy)
+10:668  0:000          USB volume
+10:668  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x1743B7C8,0x103000,0xD6B3F4)
+10:669  0:001          Result of bootcode detection: bootable Windows (vista,win)
+10:669  0:000          USB volume
+10:670  0:001  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+10:675  0:005  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+10:676  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+10:677  0:000          Result of bootcode detection: bootable Windows (vista,win)
+10:677  0:000          This is SelfVolume !!
+10:677  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F40FE969-0EF3-4073-902D-FD6FFB1C20A1,0x96800,0x3F800)
+10:677  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,63CFD1EA-81B0-4540-A262-ECB63E382C37,0xD6022,0x60E2E4B)
+10:678  0:000          Result of bootcode detection: bootable Windows (vista,win)
+10:678  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,B3F6E5BC-9FF7-45C1-B5B3-62BCA45691B0,0x61B9000,0x190000)
+10:678  0:000          Result of bootcode detection: bootable Windows (vista,win)
+10:678  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,6B59E6D3-1E18-479C-AD52-1AD96120D220,0x6349800,0x18D000)
+10:679  0:000          Result of bootcode detection: bootable Windows (vista,win)
+10:679  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)
+10:680  0:000          Result of bootcode detection: bootable unknown (legacy)
+10:680  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,CACA28CB-A4AF-416F-A4C8-CBA6E0CD275D,0x800,0x95800)
+10:680  0:000          Result of bootcode detection: bootable Windows (win)
+10:680  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,52828BD7-870C-4954-9552-5D326CCB07BA,0x96000,0x40000)
+10:681  0:000          Result of bootcode detection: bootable unknown (legacy)
+10:681  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,DFC7490B-0ABD-46B3-9220-793781926F34,0xD6000,0x1D17C559)
+10:681  0:000          Result of bootcode detection: bootable Windows (vista,win)
+10:681  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(4,GPT,F0FBD1E5-5D25-46D6-9B65-9ADC040576BF,0x1D252560,0x1D133AAF)
+10:682  0:000          Result of bootcode detection: bootable Windows (vista,win)
+10:682  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+10:682  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E9C1B0C7B5D8AD35BDA55A8D17961611)
+10:682  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AF7818E8E4FD9C41B8C1239D905C8F7F)
+10:682  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7ACB6F740E84F947B60F70BD85EF7007)
+10:683  0:000  Chosen theme bluemac
+10:683  0:000  after NVRAM boot-args=darkwake=1 nv_disable=1
+10:683  0:000  === [ ScanLoader ] ========================================
+10:683  0:000  - [01]: 'U/¨UØ'
+10:683  0:000  - [04]: 'EFI'
+10:683  0:000          AddLoaderEntry for Volume Name=EFI
+10:683  0:000          AddLoaderEntry for Volume Name=EFI
+10:683  0:000          skipped because entry is hidden
+10:683  0:000  - [06]: ''
+10:683  0:000  - [07]: ''
+10:683  0:000  - [08]: ''
+10:683  0:000  - [10]: 'EFI'
+10:683  0:000  - [12]: ''
+10:683  0:000  - [13]: ''
+10:683  0:000  - [14]: 'Preboot'
+10:692  0:008          AddLoaderEntry for Volume Name=Preboot
+10:701  0:009      hibernated: set as never
+10:705  0:003          AddLoaderEntry for Volume Name=Preboot
+10:727  0:022  - [15]: 'macOS'
+10:785  0:058          AddLoaderEntry for Volume Name=macOS
+10:800  0:014      hibernated: set as never
+10:811  0:010  - [16]: 'Recovery'
+10:819  0:008          AddLoaderEntry for Volume Name=Recovery
+10:834  0:014  - [17]: 'VM'
+10:834  0:000  === [ AddCustomTool ] =====================================
+10:834  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+10:834  0:000  Checking EFI partition Volume 4 for Clover
+10:834  0:000   Found Clover
+10:834  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+10:834  0:000  === [ FindStartupDiskVolume ] =============================
+10:834  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+10:834  0:000     - searching for that partition and loader '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+10:834  0:000      - found entry 1. 'Boot FileVault Prebooter from Preboot', Volume 'Preboot', '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+10:834  0:000  Boot redirected to Entry 1. 'Boot FileVault Prebooter from Preboot'
+10:834  0:000  DefaultIndex=1 and MainMenu.EntryCount=11
+12:515  1:680  ReinitSelfLib after theme change
+12:515  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+12:515  0:000  === [ ScanVolumes ] =======================================
+12:515  0:000  Found 18 volumes with blockIO
+12:515  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+12:516  0:001          Result of bootcode detection: bootable unknown (legacy)
+12:516  0:000          USB volume
+12:516  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x1743B7C8,0x103000,0xD6B3F4)
+12:517  0:001          Result of bootcode detection: bootable Windows (vista,win)
+12:517  0:000          USB volume
+12:518  0:001  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+12:524  0:005  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+12:524  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+12:525  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:525  0:000          This is SelfVolume !!
+12:525  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F40FE969-0EF3-4073-902D-FD6FFB1C20A1,0x96800,0x3F800)
+12:525  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,63CFD1EA-81B0-4540-A262-ECB63E382C37,0xD6022,0x60E2E4B)
+12:526  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:526  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,B3F6E5BC-9FF7-45C1-B5B3-62BCA45691B0,0x61B9000,0x190000)
+12:527  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:527  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,6B59E6D3-1E18-479C-AD52-1AD96120D220,0x6349800,0x18D000)
+12:527  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:527  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)
+12:528  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:528  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,CACA28CB-A4AF-416F-A4C8-CBA6E0CD275D,0x800,0x95800)
+12:528  0:000          Result of bootcode detection: bootable Windows (win)
+12:528  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,52828BD7-870C-4954-9552-5D326CCB07BA,0x96000,0x40000)
+12:529  0:000          Result of bootcode detection: bootable unknown (legacy)
+12:529  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,DFC7490B-0ABD-46B3-9220-793781926F34,0xD6000,0x1D17C559)
+12:529  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:529  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(4,GPT,F0FBD1E5-5D25-46D6-9B65-9ADC040576BF,0x1D252560,0x1D133AAF)
+12:530  0:000          Result of bootcode detection: bootable Windows (vista,win)
+12:530  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+12:530  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E9C1B0C7B5D8AD35BDA55A8D17961611)
+12:530  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AF7818E8E4FD9C41B8C1239D905C8F7F)
+12:530  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7ACB6F740E84F947B60F70BD85EF7007)
+12:530  0:000  Chosen theme bluemac
+12:531  0:000  after NVRAM boot-args=darkwake=1 nv_disable=1
+12:531  0:000  === [ ScanLoader ] ========================================
+12:531  0:000  - [01]: 'U/¨UØ'
+12:531  0:000  - [04]: 'EFI'
+12:531  0:000          AddLoaderEntry for Volume Name=EFI
+12:531  0:000          AddLoaderEntry for Volume Name=EFI
+12:532  0:000  - [06]: ''
+12:532  0:000  - [07]: ''
+12:532  0:000  - [08]: ''
+12:532  0:000  - [10]: 'EFI'
+12:532  0:000  - [12]: ''
+12:532  0:000  - [13]: ''
+12:532  0:000  - [14]: 'Preboot'
+12:541  0:008          AddLoaderEntry for Volume Name=Preboot
+12:550  0:008      hibernated: set as never
+12:553  0:003          AddLoaderEntry for Volume Name=Preboot
+12:575  0:022  - [15]: 'macOS'
+12:634  0:058          AddLoaderEntry for Volume Name=macOS
+12:648  0:014      hibernated: set as never
+12:659  0:010  - [16]: 'Recovery'
+12:667  0:008          AddLoaderEntry for Volume Name=Recovery
+12:682  0:014  - [17]: 'VM'
+12:682  0:000  === [ AddCustomTool ] =====================================
+12:682  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+12:682  0:000  Checking EFI partition Volume 4 for Clover
+12:682  0:000   Found Clover
+12:682  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+12:682  0:000  === [ FindStartupDiskVolume ] =============================
+12:682  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+12:682  0:000     - searching for that partition and loader '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+12:682  0:000      - found entry 2. 'Boot FileVault Prebooter from Preboot', Volume 'Preboot', '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+12:682  0:000  Boot redirected to Entry 2. 'Boot FileVault Prebooter from Preboot'
+12:682  0:000  DefaultIndex=2 and MainMenu.EntryCount=12
+13:483  0:801  ReinitSelfLib after theme change
+13:483  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+13:483  0:000  === [ ScanVolumes ] =======================================
+13:483  0:000  Found 18 volumes with blockIO
+13:483  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+13:484  0:001          Result of bootcode detection: bootable unknown (legacy)
+13:484  0:000          USB volume
+13:484  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x1743B7C8,0x103000,0xD6B3F4)
+13:485  0:001          Result of bootcode detection: bootable Windows (vista,win)
+13:485  0:000          USB volume
+13:486  0:001  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+13:491  0:005  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+13:492  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,F7CDD6AA-1579-4FAE-9F14-5FF8D1B68F6E,0x22,0x96000)
+13:492  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:492  0:000          This is SelfVolume !!
+13:492  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F40FE969-0EF3-4073-902D-FD6FFB1C20A1,0x96800,0x3F800)
+13:493  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,63CFD1EA-81B0-4540-A262-ECB63E382C37,0xD6022,0x60E2E4B)
+13:493  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:494  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,B3F6E5BC-9FF7-45C1-B5B3-62BCA45691B0,0x61B9000,0x190000)
+13:494  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:494  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,6B59E6D3-1E18-479C-AD52-1AD96120D220,0x6349800,0x18D000)
+13:495  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:495  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)
+13:495  0:000          Result of bootcode detection: bootable unknown (legacy)
+13:495  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,CACA28CB-A4AF-416F-A4C8-CBA6E0CD275D,0x800,0x95800)
+13:496  0:000          Result of bootcode detection: bootable Windows (win)
+13:496  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,52828BD7-870C-4954-9552-5D326CCB07BA,0x96000,0x40000)
+13:496  0:000          Result of bootcode detection: bootable unknown (legacy)
+13:496  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,DFC7490B-0ABD-46B3-9220-793781926F34,0xD6000,0x1D17C559)
+13:497  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:497  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(4,GPT,F0FBD1E5-5D25-46D6-9B65-9ADC040576BF,0x1D252560,0x1D133AAF)
+13:498  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:498  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+13:498  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,E9C1B0C7B5D8AD35BDA55A8D17961611)
+13:498  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AF7818E8E4FD9C41B8C1239D905C8F7F)
+13:498  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7ACB6F740E84F947B60F70BD85EF7007)
+13:498  0:000  Chosen theme bluemac
+13:498  0:000  after NVRAM boot-args=darkwake=1 nv_disable=1
+13:498  0:000  === [ ScanLoader ] ========================================
+13:498  0:000  - [01]: 'U/¨UØ'
+13:498  0:000  - [04]: 'EFI'
+13:498  0:000          AddLoaderEntry for Volume Name=EFI
+13:499  0:000          AddLoaderEntry for Volume Name=EFI
+13:499  0:000          skipped because entry is hidden
+13:499  0:000  - [06]: ''
+13:499  0:000  - [07]: ''
+13:499  0:000  - [08]: ''
+13:499  0:000  - [10]: 'EFI'
+13:499  0:000  - [12]: ''
+13:499  0:000  - [13]: ''
+13:499  0:000  - [14]: 'Preboot'
+13:508  0:008          AddLoaderEntry for Volume Name=Preboot
+13:517  0:008      hibernated: set as never
+13:520  0:003          AddLoaderEntry for Volume Name=Preboot
+13:542  0:022  - [15]: 'macOS'
+13:601  0:058          AddLoaderEntry for Volume Name=macOS
+13:615  0:014      hibernated: set as never
+13:626  0:010  - [16]: 'Recovery'
+13:634  0:008          AddLoaderEntry for Volume Name=Recovery
+13:649  0:014  - [17]: 'VM'
+13:649  0:000  === [ AddCustomTool ] =====================================
+13:649  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+13:649  0:000  Checking EFI partition Volume 4 for Clover
+13:649  0:000   Found Clover
+13:649  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+13:649  0:000  === [ FindStartupDiskVolume ] =============================
+13:649  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,4B1BCFB6-44FF-416A-B9C9-78EDE44E053D,0x64D7000,0x89A5288)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,D865B1D2D233E8428AD60E0A7AA93FA8)
+13:649  0:000     - searching for that partition and loader '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+13:649  0:000      - found entry 1. 'Boot FileVault Prebooter from Preboot', Volume 'Preboot', '\C7B0C1E9-D8B5-35AD-BDA5-5A8D17961611\System\Library\CoreServices\boot.efi'
+13:649  0:000  Boot redirected to Entry 1. 'Boot FileVault Prebooter from Preboot'
+13:649  0:000  DefaultIndex=1 and MainMenu.EntryCount=11

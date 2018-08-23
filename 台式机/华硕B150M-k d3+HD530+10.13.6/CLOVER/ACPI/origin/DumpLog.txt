@@ -1,0 +1,170 @@
+71:299  0:375  Found BIOS RSDP at FCBF0
+71:299  0:000  Printing ACPI tables from RSDP FCBF0 ...
+71:299  0:000   FCBF0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+71:299  0:000    (Xsdt: B93430A8, Rsdt: B9343028)
+71:299  0:000    B93430A8: 'XSDT', 'A M I', Rev: 1, Len: 196
+71:299  0:000    B9343028: 'RSDT', 'A M I', Rev: 1, Len: 116
+71:299  0:000    Tables in Xsdt: 20
+71:299  0:000    0. B93663F0: 'FACP', 'A M I', Rev: 5, Len: 268
+71:299  0:000        (Dsdt: B9343200, Facs: C2D19F80, XDsdt: B9343200, XFacs: 0)
+71:299  0:000        B9343200: 'DSDT', 'A M I', Rev: 2, Len: 143854
+71:301  0:002        C2D19F80: 'FACS', Ver: 2, Len: 64
+71:301  0:000    1. B9366500: 'APIC', 'A M I', Rev: 3, Len: 132
+71:301  0:000    2. B9366588: 'FPDT', 'A M I', Rev: 1, Len: 68
+71:301  0:000    3. B93665D0: 'FIDT', 'A M I', Rev: 1, Len: 156
+71:301  0:000    4. B9366670: 'MCFG', 'A M I', Rev: 1, Len: 60
+71:301  0:000    5. B93666B0: 'HPET', 'A M I', Rev: 1, Len: 56
+71:301  0:000    6. B93666E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+71:301  0:000    7. B9366A58: 'LPIT', 'SKL', Rev: 1, Len: 148
+71:301  0:000    8. B9366AF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+71:301  0:000    9. B9366D38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+71:301  0:000    10. B93698E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+71:301  0:000    11. B936A4D0: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+71:301  0:000    12. B936A978: 'DBGP', '', Rev: 1, Len: 52
+71:301  0:000    13. B936A9B0: 'DBG2', '', Rev: 0, Len: 84
+71:301  0:000    14. B936AA08: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+71:301  0:000    15. B936B110: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+71:301  0:000    16. B9370470: 'UEFI', '', Rev: 1, Len: 66
+71:301  0:000    17. B93704B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+71:301  0:000    18. B93713C0: 'ASF!', ' HCG', Rev: 32, Len: 165
+71:301  0:000    19. B9371388: 'BGRT', 'A M I', Rev: 1, Len: 56
+71:301  0:000    Tables in Rsdt: 20
+71:301  0:000    0. B9343178: 'FACP', 'A M I', Rev: 2, Len: 132
+71:301  0:000        (Dsdt: B9343200, Facs: C2D19F40)
+71:301  0:000        B9343200: 'DSDT', 'A M I', Rev: 2, Len: 143854
+71:304  0:002        C2D19F40: 'FACS', Ver: 0, Len: 64
+71:304  0:000    1. B9366500: 'APIC', 'A M I', Rev: 3, Len: 132
+71:304  0:000    2. B9366588: 'FPDT', 'A M I', Rev: 1, Len: 68
+71:304  0:000    3. B93665D0: 'FIDT', 'A M I', Rev: 1, Len: 156
+71:304  0:000    4. B9366670: 'MCFG', 'A M I', Rev: 1, Len: 60
+71:304  0:000    5. B93666B0: 'HPET', 'A M I', Rev: 1, Len: 56
+71:304  0:000    6. B93666E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+71:304  0:000    7. B9366A58: 'LPIT', 'SKL', Rev: 1, Len: 148
+71:304  0:000    8. B9366AF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+71:304  0:000    9. B9366D38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+71:304  0:000    10. B93698E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+71:304  0:000    11. B936A4D0: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+71:304  0:000    12. B936A978: 'DBGP', '', Rev: 1, Len: 52
+71:304  0:000    13. B936A9B0: 'DBG2', '', Rev: 0, Len: 84
+71:304  0:000    14. B936AA08: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+71:304  0:000    15. B936B110: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+71:304  0:000    16. B9370470: 'UEFI', '', Rev: 1, Len: 66
+71:304  0:000    17. B93704B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+71:304  0:000    18. B93713C0: 'ASF!', ' HCG', Rev: 32, Len: 165
+71:304  0:000    19. B9371388: 'BGRT', 'A M I', Rev: 1, Len: 56
+71:304  0:000  Found UEFI Acpi 2.0 RSDP at B9343000
+71:304  0:000  Saving ACPI tables from RSDP B9343000 to EFI\CLOVER\ACPI\origin ...
+71:304  0:000   B9343000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+71:318  0:014    (Xsdt: B93430A8, Rsdt: B9343028)
+71:318  0:000    B93430A8: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+71:330  0:012    B9343028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+71:343  0:012    Tables in Xsdt: 20
+71:343  0:000    0. B93663F0: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+71:355  0:012        (Dsdt: B9343200, Facs: C2D19F80, XDsdt: B9343200, XFacs: 0)
+71:355  0:000        B9343200: 'DSDT', 'A M I', Rev: 2, Len: 143854 -> DSDT.aml
+71:372  0:017        C2D19F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+71:384  0:012    1. B9366500: 'APIC', 'A M I', Rev: 3, Len: 132 -> APIC.aml
+71:396  0:012    2. B9366588: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+71:409  0:012    3. B93665D0: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+71:421  0:012    4. B9366670: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+71:433  0:012    5. B93666B0: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+71:446  0:012    6. B93666E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-0-SataTabl.aml
+71:458  0:012    7. B9366A58: 'LPIT', 'SKL', Rev: 1, Len: 148 -> LPIT.aml
+71:470  0:012    8. B9366AF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1-sensrhub.aml
+71:482  0:012    9. B9366D38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182 -> SSDT-2-PtidDevc.aml
+71:494  0:012    10. B93698E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043 -> SSDT-3-Ther_Rvp.aml
+71:506  0:012    11. B936A4D0: 'SSDT', 'zpodd', Rev: 2, Len: 1187 -> SSDT-4-zpodd.aml
+71:519  0:012    12. B936A978: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+71:531  0:012    13. B936A9B0: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+71:544  0:012    14. B936AA08: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797 -> SSDT-5-xh_rvp08.aml
+71:556  0:012    15. B936B110: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337 -> SSDT-6-SaSsdt.aml
+71:568  0:012    16. B9370470: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+71:580  0:012    17. B93704B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699 -> SSDT-7-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+71:592  0:012        * C1192698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1533  53 53 44 54 FD 05 00 00 02 32 50 6D 52 65 66 00 Internal length = 1533 -> SSDT-x7_0-Cpu0Ist.aml
+71:605  0:012        * C1191618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x7_1-ApIst.aml
+71:617  0:012        * C1191C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x7_2-Cpu0Cst.aml
+71:629  0:012        * C2195C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x7_3-ApCst.aml
+71:641  0:012        * BECDB018: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x7_4-Cpu0Hwp.aml
+71:654  0:012        * BEF24798: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x7_5-ApHwp.aml
+71:666  0:012        * BEF24618: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x7_6-HwpLvt.aml
+71:678  0:012  
+71:678  0:000    18. B93713C0: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+71:690  0:012    19. B9371388: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+71:702  0:012    Tables in Rsdt: 20
+71:702  0:000    0. B9343178: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+71:715  0:012        (Dsdt: B9343200, Facs: C2D19F40)
+71:715  0:000        B9343200: 'DSDT', 'A M I', Rev: 2, Len: 143854
+71:717  0:002        C2D19F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+71:729  0:012    1. B9366500: 'APIC', 'A M I', Rev: 3, Len: 132
+71:729  0:000    2. B9366588: 'FPDT', 'A M I', Rev: 1, Len: 68
+71:729  0:000    3. B93665D0: 'FIDT', 'A M I', Rev: 1, Len: 156
+71:729  0:000    4. B9366670: 'MCFG', 'A M I', Rev: 1, Len: 60
+71:729  0:000    5. B93666B0: 'HPET', 'A M I', Rev: 1, Len: 56
+71:729  0:000    6. B93666E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+71:729  0:000    7. B9366A58: 'LPIT', 'SKL', Rev: 1, Len: 148
+71:729  0:000    8. B9366AF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+71:729  0:000    9. B9366D38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+71:729  0:000    10. B93698E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+71:729  0:000    11. B936A4D0: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+71:729  0:000    12. B936A978: 'DBGP', '', Rev: 1, Len: 52
+71:729  0:000    13. B936A9B0: 'DBG2', '', Rev: 0, Len: 84
+71:729  0:000    14. B936AA08: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+71:729  0:000    15. B936B110: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+71:729  0:000    16. B9370470: 'UEFI', '', Rev: 1, Len: 66
+71:729  0:000    17. B93704B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+71:729  0:000    18. B93713C0: 'ASF!', ' HCG', Rev: 32, Len: 165
+71:729  0:000    19. B9371388: 'BGRT', 'A M I', Rev: 1, Len: 56
+71:729  0:000  Found UEFI Acpi 1.0 RSDP at B9343000
+71:729  0:000  Printing ACPI tables from RSDP B9343000 ...
+71:729  0:000   B9343000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+71:729  0:000    (Xsdt: B93430A8, Rsdt: B9343028)
+71:729  0:000    B93430A8: 'XSDT', 'A M I', Rev: 1, Len: 196
+71:729  0:000    B9343028: 'RSDT', 'A M I', Rev: 1, Len: 116
+71:729  0:000    Tables in Xsdt: 20
+71:729  0:000    0. B93663F0: 'FACP', 'A M I', Rev: 5, Len: 268
+71:729  0:000        (Dsdt: B9343200, Facs: C2D19F80, XDsdt: B9343200, XFacs: 0)
+71:729  0:000        B9343200: 'DSDT', 'A M I', Rev: 2, Len: 143854
+71:732  0:002        C2D19F80: 'FACS', Ver: 2, Len: 64
+71:732  0:000    1. B9366500: 'APIC', 'A M I', Rev: 3, Len: 132
+71:732  0:000    2. B9366588: 'FPDT', 'A M I', Rev: 1, Len: 68
+71:732  0:000    3. B93665D0: 'FIDT', 'A M I', Rev: 1, Len: 156
+71:732  0:000    4. B9366670: 'MCFG', 'A M I', Rev: 1, Len: 60
+71:732  0:000    5. B93666B0: 'HPET', 'A M I', Rev: 1, Len: 56
+71:732  0:000    6. B93666E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+71:732  0:000    7. B9366A58: 'LPIT', 'SKL', Rev: 1, Len: 148
+71:732  0:000    8. B9366AF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+71:732  0:000    9. B9366D38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+71:732  0:000    10. B93698E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+71:732  0:000    11. B936A4D0: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+71:732  0:000    12. B936A978: 'DBGP', '', Rev: 1, Len: 52
+71:732  0:000    13. B936A9B0: 'DBG2', '', Rev: 0, Len: 84
+71:732  0:000    14. B936AA08: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+71:732  0:000    15. B936B110: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+71:732  0:000    16. B9370470: 'UEFI', '', Rev: 1, Len: 66
+71:732  0:000    17. B93704B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+71:732  0:000    18. B93713C0: 'ASF!', ' HCG', Rev: 32, Len: 165
+71:732  0:000    19. B9371388: 'BGRT', 'A M I', Rev: 1, Len: 56
+71:732  0:000    Tables in Rsdt: 20
+71:732  0:000    0. B9343178: 'FACP', 'A M I', Rev: 2, Len: 132
+71:732  0:000        (Dsdt: B9343200, Facs: C2D19F40)
+71:732  0:000        B9343200: 'DSDT', 'A M I', Rev: 2, Len: 143854
+71:734  0:002        C2D19F40: 'FACS', Ver: 0, Len: 64
+71:734  0:000    1. B9366500: 'APIC', 'A M I', Rev: 3, Len: 132
+71:734  0:000    2. B9366588: 'FPDT', 'A M I', Rev: 1, Len: 68
+71:734  0:000    3. B93665D0: 'FIDT', 'A M I', Rev: 1, Len: 156
+71:734  0:000    4. B9366670: 'MCFG', 'A M I', Rev: 1, Len: 60
+71:734  0:000    5. B93666B0: 'HPET', 'A M I', Rev: 1, Len: 56
+71:734  0:000    6. B93666E8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+71:734  0:000    7. B9366A58: 'LPIT', 'SKL', Rev: 1, Len: 148
+71:734  0:000    8. B9366AF0: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+71:734  0:000    9. B9366D38: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+71:734  0:000    10. B93698E8: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+71:734  0:000    11. B936A4D0: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+71:734  0:000    12. B936A978: 'DBGP', '', Rev: 1, Len: 52
+71:734  0:000    13. B936A9B0: 'DBG2', '', Rev: 0, Len: 84
+71:734  0:000    14. B936AA08: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+71:734  0:000    15. B936B110: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+71:734  0:000    16. B9370470: 'UEFI', '', Rev: 1, Len: 66
+71:734  0:000    17. B93704B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+71:734  0:000    18. B93713C0: 'ASF!', ' HCG', Rev: 32, Len: 165
+71:734  0:000    19. B9371388: 'BGRT', 'A M I', Rev: 1, Len: 56
