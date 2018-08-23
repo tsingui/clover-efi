@@ -1,0 +1,9 @@
+1、打开终端
+2、输入
+bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh)
+3、等待自动执行，然后输入管理员密码确认
+4、完成
+5、重启结束
+
+注意！注意！ 出现升级界面，不可升级！
+升级重复12345步骤即可！
