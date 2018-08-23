@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Comment</key>
+		<string>Intel HDMI (Framebuffers)</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>IGPU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Intel HDMI</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>NVIDIA/AMD HDMI PEG0</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>PEG0</string>
+			<string>IOPP</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>NVIDIA/AMD HDMI PEG1</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>PEG1</string>
+			<string>IOPP</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>NVIDIA/AMD HDMI BR3A</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>BR3A</string>
+			<string>IOPP</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>NVIDIA/AMD HDMI P0P1</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>P0P1</string>
+			<string>IOPP</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>NVIDIA/AMD HDMI POP2</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>P0P2</string>
+			<string>IOPP</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>NVIDIA/AMD HDMI NPE3</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>NPE3</string>
+			<string>IOPP</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>NVIDIA/AMD HDMI NPE7</string>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>NPE7</string>
+			<string>IOPP</string>
+			<string>HDAU</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>All analog audio</string>
+		<key>Detect</key>
+		<true/>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>HDEF</string>
+			<string>AppleHDAController</string>
+			<string>IOHDACodecDevice</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Comment</key>
+		<string>Skylake 9D70 Controller</string>
+		<key>Detect</key>
+		<true/>
+		<key>Tree</key>
+		<array>
+			<string>AppleACPIPCI</string>
+			<string>HDEF</string>
+			<string>AppleHDA8086_9D70Controller</string>
+			<string>IOHDACodecDevice</string>
+		</array>
+		<key>controllerNum</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

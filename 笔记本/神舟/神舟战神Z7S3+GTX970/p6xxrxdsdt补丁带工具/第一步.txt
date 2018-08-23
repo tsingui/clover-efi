@@ -1,0 +1,15 @@
+into_all all code_regex HDAS replaceall_matched begin HDEF end;
+into_all all label HDAS set_label begin HDEF end;
+into_all all label PPMC set_label begin PMCR end;
+into_all all code_regex PPMC replaceall_matched begin PMCR end;
+into_all all label HECI set_label begin IMEI end;
+into_all all code_regex LID0 replaceall_matched begin LIDA end;
+into_all all label LID0 set_label begin LIDA end;
+into_all all label SAT0 set_label begin SATA end;
+into_all all code_regex SAT0 replaceall_matched begin SATA end;
+into_all all label _SB.PCI0.SAT0 set_label begin _SB.PCI0.SATA end;
+into method label ADBG replace_content begin Return(0) end;
+into_all method label _DSM set_label begin XDSM end;
+into_all method code_regex _DSM replaceall_matched begin XDSM end;
+into_all method code_regex Windows\s2015 replace_matched begin Darwin end;
+

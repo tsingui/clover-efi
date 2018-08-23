@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>adamsmasher</string>
+	<key>Description</key>
+	<string>tonymacx86.com theme</string>
+	<key>Theme</key>
+	<dict>
+		<key>Background</key>
+		<dict>
+			<key>Type</key>
+			<string>Black</string>
+		</dict>
+		<key>Badges</key>
+		<dict>
+			<key>Inline</key>
+			<false/>
+			<key>OffsetX</key>
+			<integer>0</integer>
+			<key>OffsetY</key>
+			<integer>0</integer>
+			<key>Scale</key>
+			<integer>8</integer>
+			<key>Show</key>
+			<true/>
+			<key>Swap</key>
+			<false/>
+		</dict>
+		<key>Banner</key>
+		<string>logo.png</string>
+		<key>Font</key>
+		<dict>
+			<key>CharWidth</key>
+			<integer>8</integer>
+			<key>Type</key>
+			<string>White</string>
+		</dict>
+		<key>Selection</key>
+		<dict>
+			<key>Big</key>
+			<string>Selection_big.png</string>
+			<key>Color</key>
+			<string>0xFFFFFF7F</string>
+			<key>OnTop</key>
+			<false/>
+			<key>Small</key>
+			<string>Selection_small.png</string>
+		</dict>
+	</dict>
+	<key>Year</key>
+	<string>2016</string>
+</dict>
+</plist>

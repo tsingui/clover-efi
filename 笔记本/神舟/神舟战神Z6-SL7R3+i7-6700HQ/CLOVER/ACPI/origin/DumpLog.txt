@@ -1,0 +1,117 @@
+9:860  0:260  Found UEFI Acpi 2.0 RSDP at 67393000
+9:860  0:000  Saving ACPI tables from RSDP 67393000 to EFI\CLOVER\ACPI\origin ...
+9:860  0:000   67393000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:873  0:012    (Xsdt: 673930A0, Rsdt: 67393028)
+9:873  0:000    673930A0: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+9:885  0:011    67393028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+9:896  0:011    Tables in Xsdt: 20
+9:896  0:000    0. 673AC978: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+9:907  0:011        (Dsdt: 673931F8, Facs: 67B97F80, XDsdt: 673931F8, XFacs: 0)
+9:907  0:000        673931F8: 'DSDT', 'A M I', Rev: 2, Len: 104320 -> DSDT.aml
+9:923  0:015        67B97F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+9:935  0:011    1. 673ACA88: 'APIC', 'A M I', Rev: 3, Len: 188 -> APIC.aml
+9:956  0:020    2. 673ACB48: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+9:968  0:012    3. 673ACB90: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+9:980  0:011    4. 673ACC30: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+9:991  0:011    5. 673ACC70: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+10:002  0:011    6. 673ACCA8: 'SSDT', 'A M I', Rev: 1, Len: 789 -> SSDT-0.aml
+10:014  0:011    7. 673ACFC0: 'SSDT', 'A M I', Rev: 1, Len: 4352 -> SSDT-1.aml
+10:027  0:012    8. 673AE0C0: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
+10:038  0:011    9. 673AE0F8: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
+10:049  0:010    10. 673AE150: 'MSDM', 'A M I', Rev: 3, Len: 85 -> MSDM.aml
+10:060  0:011    11. 673AE1A8: 'SSDT', 'A M I', Rev: 2, Len: 22759 -> SSDT-2.aml
+10:074  0:014    12. 673B3A90: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+10:086  0:011    13. 673B3AD8: 'SSDT', 'A M I', Rev: 2, Len: 3672
+ Found hidden SSDT 7 pcs
+10:086  0:000        * 66BFA698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1500  53 53 44 54 DC 05 00 00 02 EF 50 6D 52 65 66 00 Internal length = 1500 -> SSDT-4x.aml
+10:098  0:011        * 66BF9618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-5x.aml
+10:109  0:011        * 66BF9C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-6x.aml
+10:121  0:011        * 67100C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-7x.aml
+10:132  0:011        * 65835918: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-8x.aml
+10:143  0:011        * 65837A98: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-9x.aml
+10:162  0:018        * 65837918: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-10x.aml
+10:174  0:011   -> SSDT-3.aml
+10:185  0:011    14. 673B4930: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+10:196  0:011    15. 673B4968: 'SSDT', 'A M I', Rev: 2, Len: 159 -> SSDT-11.aml
+10:208  0:011    16. 673B4A08: 'DMAR', 'A M I', Rev: 1, Len: 168 -> DMAR.aml
+10:219  0:011    17. 673B4AB0: 'TPM2', 'A M I', Rev: 3, Len: 52 -> TPM2.aml
+10:231  0:011    18. 673B4AE8: 'SSDT', 'A M I', Rev: 1, Len: 8984 -> SSDT-12.aml
+10:243  0:011    19. 673B6E00: 'ASF!', 'A M I', Rev: 32, Len: 165 -> ASF!.aml
+10:256  0:012    Tables in Rsdt: 20
+10:256  0:000    0. 67393170: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+10:267  0:011        (Dsdt: 673931F8, Facs: 67B97F40)
+10:267  0:000        673931F8: 'DSDT', 'A M I', Rev: 2, Len: 104320
+10:268  0:001        67B97F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+10:290  0:021    1. 673ACA88: 'APIC', 'A M I', Rev: 3, Len: 188
+10:290  0:000    2. 673ACB48: 'FPDT', 'A M I', Rev: 1, Len: 68
+10:290  0:000    3. 673ACB90: 'FIDT', 'A M I', Rev: 1, Len: 156
+10:290  0:000    4. 673ACC30: 'MCFG', 'A M I', Rev: 1, Len: 60
+10:290  0:000    5. 673ACC70: 'HPET', 'A M I', Rev: 1, Len: 56
+10:290  0:000    6. 673ACCA8: 'SSDT', 'A M I', Rev: 1, Len: 789
+10:290  0:000    7. 673ACFC0: 'SSDT', 'A M I', Rev: 1, Len: 4352
+10:290  0:000    8. 673AE0C0: 'DBGP', 'A M I', Rev: 1, Len: 52
+10:290  0:000    9. 673AE0F8: 'DBG2', 'A M I', Rev: 0, Len: 84
+10:290  0:000    10. 673AE150: 'MSDM', 'A M I', Rev: 3, Len: 85
+10:290  0:000    11. 673AE1A8: 'SSDT', 'A M I', Rev: 2, Len: 22759
+10:290  0:000    12. 673B3A90: 'UEFI', 'A M I', Rev: 1, Len: 66
+10:290  0:000    13. 673B3AD8: 'SSDT', 'A M I', Rev: 2, Len: 3672
+10:290  0:000    14. 673B4930: 'BGRT', 'A M I', Rev: 1, Len: 56
+10:290  0:000    15. 673B4968: 'SSDT', 'A M I', Rev: 2, Len: 159
+10:290  0:000    16. 673B4A08: 'DMAR', 'A M I', Rev: 1, Len: 168
+10:290  0:000    17. 673B4AB0: 'TPM2', 'A M I', Rev: 3, Len: 52
+10:290  0:000    18. 673B4AE8: 'SSDT', 'A M I', Rev: 1, Len: 8984
+10:290  0:000    19. 673B6E00: 'ASF!', 'A M I', Rev: 32, Len: 165
+10:290  0:000  Found UEFI Acpi 1.0 RSDP at 67393000
+10:290  0:000  Printing ACPI tables from RSDP 67393000 ...
+10:290  0:000   67393000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:290  0:000    (Xsdt: 673930A0, Rsdt: 67393028)
+10:290  0:000    673930A0: 'XSDT', 'A M I', Rev: 1, Len: 196
+10:290  0:000    67393028: 'RSDT', 'A M I', Rev: 1, Len: 116
+10:290  0:000    Tables in Xsdt: 20
+10:290  0:000    0. 673AC978: 'FACP', 'A M I', Rev: 5, Len: 268
+10:290  0:000        (Dsdt: 673931F8, Facs: 67B97F80, XDsdt: 673931F8, XFacs: 0)
+10:290  0:000        673931F8: 'DSDT', 'A M I', Rev: 2, Len: 104320
+10:292  0:001        67B97F80: 'FACS', Ver: 2, Len: 64
+10:292  0:000    1. 673ACA88: 'APIC', 'A M I', Rev: 3, Len: 188
+10:292  0:000    2. 673ACB48: 'FPDT', 'A M I', Rev: 1, Len: 68
+10:292  0:000    3. 673ACB90: 'FIDT', 'A M I', Rev: 1, Len: 156
+10:292  0:000    4. 673ACC30: 'MCFG', 'A M I', Rev: 1, Len: 60
+10:292  0:000    5. 673ACC70: 'HPET', 'A M I', Rev: 1, Len: 56
+10:292  0:000    6. 673ACCA8: 'SSDT', 'A M I', Rev: 1, Len: 789
+10:292  0:000    7. 673ACFC0: 'SSDT', 'A M I', Rev: 1, Len: 4352
+10:292  0:000    8. 673AE0C0: 'DBGP', 'A M I', Rev: 1, Len: 52
+10:292  0:000    9. 673AE0F8: 'DBG2', 'A M I', Rev: 0, Len: 84
+10:292  0:000    10. 673AE150: 'MSDM', 'A M I', Rev: 3, Len: 85
+10:292  0:000    11. 673AE1A8: 'SSDT', 'A M I', Rev: 2, Len: 22759
+10:292  0:000    12. 673B3A90: 'UEFI', 'A M I', Rev: 1, Len: 66
+10:292  0:000    13. 673B3AD8: 'SSDT', 'A M I', Rev: 2, Len: 3672
+10:292  0:000    14. 673B4930: 'BGRT', 'A M I', Rev: 1, Len: 56
+10:292  0:000    15. 673B4968: 'SSDT', 'A M I', Rev: 2, Len: 159
+10:292  0:000    16. 673B4A08: 'DMAR', 'A M I', Rev: 1, Len: 168
+10:292  0:000    17. 673B4AB0: 'TPM2', 'A M I', Rev: 3, Len: 52
+10:292  0:000    18. 673B4AE8: 'SSDT', 'A M I', Rev: 1, Len: 8984
+10:292  0:000    19. 673B6E00: 'ASF!', 'A M I', Rev: 32, Len: 165
+10:292  0:000    Tables in Rsdt: 20
+10:292  0:000    0. 67393170: 'FACP', 'A M I', Rev: 2, Len: 132
+10:292  0:000        (Dsdt: 673931F8, Facs: 67B97F40)
+10:292  0:000        673931F8: 'DSDT', 'A M I', Rev: 2, Len: 104320
+10:293  0:001        67B97F40: 'FACS', Ver: 0, Len: 64
+10:293  0:000    1. 673ACA88: 'APIC', 'A M I', Rev: 3, Len: 188
+10:293  0:000    2. 673ACB48: 'FPDT', 'A M I', Rev: 1, Len: 68
+10:293  0:000    3. 673ACB90: 'FIDT', 'A M I', Rev: 1, Len: 156
+10:293  0:000    4. 673ACC30: 'MCFG', 'A M I', Rev: 1, Len: 60
+10:293  0:000    5. 673ACC70: 'HPET', 'A M I', Rev: 1, Len: 56
+10:293  0:000    6. 673ACCA8: 'SSDT', 'A M I', Rev: 1, Len: 789
+10:293  0:000    7. 673ACFC0: 'SSDT', 'A M I', Rev: 1, Len: 4352
+10:293  0:000    8. 673AE0C0: 'DBGP', 'A M I', Rev: 1, Len: 52
+10:293  0:000    9. 673AE0F8: 'DBG2', 'A M I', Rev: 0, Len: 84
+10:293  0:000    10. 673AE150: 'MSDM', 'A M I', Rev: 3, Len: 85
+10:293  0:000    11. 673AE1A8: 'SSDT', 'A M I', Rev: 2, Len: 22759
+10:293  0:000    12. 673B3A90: 'UEFI', 'A M I', Rev: 1, Len: 66
+10:293  0:000    13. 673B3AD8: 'SSDT', 'A M I', Rev: 2, Len: 3672
+10:293  0:000    14. 673B4930: 'BGRT', 'A M I', Rev: 1, Len: 56
+10:293  0:000    15. 673B4968: 'SSDT', 'A M I', Rev: 2, Len: 159
+10:293  0:000    16. 673B4A08: 'DMAR', 'A M I', Rev: 1, Len: 168
+10:293  0:000    17. 673B4AB0: 'TPM2', 'A M I', Rev: 3, Len: 52
+10:293  0:000    18. 673B4AE8: 'SSDT', 'A M I', Rev: 1, Len: 8984
+10:293  0:000    19. 673B6E00: 'ASF!', 'A M I', Rev: 32, Len: 165
