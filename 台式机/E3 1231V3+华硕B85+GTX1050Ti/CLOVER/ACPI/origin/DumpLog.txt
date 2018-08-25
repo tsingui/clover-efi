@@ -1,0 +1,113 @@
+3:229  1:235  Found BIOS RSDP at FD780
+3:229  0:000  Printing ACPI tables from RSDP FD780 ...
+3:229  0:000   FD780: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:229  0:000    (Xsdt: DD704080, Rsdt: DD704028)
+3:229  0:000    DD704080: 'XSDT', 'A M I', Rev: 1, Len: 124
+3:229  0:000    DD704028: 'RSDT', 'A M I', Rev: 1, Len: 80
+3:229  0:000    Tables in Xsdt: 11
+3:229  0:000    0. DD711AF8: 'FACP', 'A M I', Rev: 5, Len: 268
+3:229  0:000        (Dsdt: DD704198, Facs: DDC53080, XDsdt: DD704198, XFacs: 0)
+3:229  0:000        DD704198: 'DSDT', 'A M I', Rev: 2, Len: 55642
+3:230  0:000        DDC53080: 'FACS', Ver: 2, Len: 64
+3:230  0:000    1. DD711C08: 'APIC', 'A M I', Rev: 3, Len: 146
+3:230  0:000    2. DD711CA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:230  0:000    3. DD711CE8: 'LPIT', 'A M I', Rev: 1, Len: 92
+3:230  0:000    4. DD711D48: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:230  0:000    5. DD712288: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:230  0:000    6. DD712D60: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:230  0:000    7. DD712DA0: 'HPET', 'A M I', Rev: 1, Len: 56
+3:230  0:000    8. DD712DD8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:230  0:000    9. DD713148: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+3:230  0:000    10. DD716688: 'BGRT', 'A M I', Rev: 0, Len: 56
+3:230  0:000    Tables in Rsdt: 11
+3:230  0:000    0. DD704110: 'FACP', 'A M I', Rev: 2, Len: 132
+3:230  0:000        (Dsdt: DD704198, Facs: DDC53040)
+3:230  0:000        DD704198: 'DSDT', 'A M I', Rev: 2, Len: 55642
+3:231  0:000        DDC53040: 'FACS', Ver: 0, Len: 64
+3:231  0:000    1. DD711C08: 'APIC', 'A M I', Rev: 3, Len: 146
+3:231  0:000    2. DD711CA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:231  0:000    3. DD711CE8: 'LPIT', 'A M I', Rev: 1, Len: 92
+3:231  0:000    4. DD711D48: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:231  0:000    5. DD712288: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:231  0:000    6. DD712D60: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:231  0:000    7. DD712DA0: 'HPET', 'A M I', Rev: 1, Len: 56
+3:231  0:000    8. DD712DD8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:231  0:000    9. DD713148: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+3:231  0:000    10. DD716688: 'BGRT', 'A M I', Rev: 0, Len: 56
+3:231  0:000  Found UEFI Acpi 2.0 RSDP at DD704000
+3:231  0:000  Saving ACPI tables from RSDP DD704000 to EFI\CLOVER\ACPI\origin ...
+3:231  0:000   DD704000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+3:239  0:008    (Xsdt: DD704080, Rsdt: DD704028)
+3:239  0:000    DD704080: 'XSDT', 'A M I', Rev: 1, Len: 124 -> XSDT.aml
+3:242  0:002    DD704028: 'RSDT', 'A M I', Rev: 1, Len: 80 -> RSDT.aml
+3:244  0:002    Tables in Xsdt: 11
+3:244  0:000    0. DD711AF8: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+3:247  0:002        (Dsdt: DD704198, Facs: DDC53080, XDsdt: DD704198, XFacs: 0)
+3:247  0:000        DD704198: 'DSDT', 'A M I', Rev: 2, Len: 55642 -> DSDT.aml
+3:251  0:003        DDC53080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+3:253  0:002    1. DD711C08: 'APIC', 'A M I', Rev: 3, Len: 146 -> APIC.aml
+3:256  0:002    2. DD711CA0: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+3:261  0:004    3. DD711CE8: 'LPIT', 'A M I', Rev: 1, Len: 92 -> LPIT.aml
+3:263  0:002    4. DD711D48: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-0-Cpu0Ist.aml
+3:266  0:002    5. DD712288: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-1-CpuPm.aml (Found hidden SSDT 4 pcs)
+3:271  0:004        * DBFB7A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+3:271  0:000        * DD6F3618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D1 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x1_0-ApIst.aml
+3:273  0:002        * DD6F3C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B1 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x1_1-Cpu0Cst.aml
+3:276  0:002        * DD6F2D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 ED 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x1_2-ApCst.aml
+3:280  0:004  
+3:280  0:000    6. DD712D60: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+3:283  0:002    7. DD712DA0: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+3:286  0:002    8. DD712DD8: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-2-SataTabl.aml
+3:288  0:002    9. DD713148: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537 -> SSDT-3-SaSsdt.aml
+3:291  0:002    10. DD716688: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+3:294  0:002    Tables in Rsdt: 11
+3:294  0:000    0. DD704110: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+3:298  0:003        (Dsdt: DD704198, Facs: DDC53040)
+3:298  0:000        DD704198: 'DSDT', 'A M I', Rev: 2, Len: 55642
+3:298  0:000        DDC53040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+3:301  0:002    1. DD711C08: 'APIC', 'A M I', Rev: 3, Len: 146
+3:301  0:000    2. DD711CA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:301  0:000    3. DD711CE8: 'LPIT', 'A M I', Rev: 1, Len: 92
+3:301  0:000    4. DD711D48: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:301  0:000    5. DD712288: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:301  0:000    6. DD712D60: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:301  0:000    7. DD712DA0: 'HPET', 'A M I', Rev: 1, Len: 56
+3:301  0:000    8. DD712DD8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:301  0:000    9. DD713148: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+3:301  0:000    10. DD716688: 'BGRT', 'A M I', Rev: 0, Len: 56
+3:301  0:000  Found UEFI Acpi 1.0 RSDP at DD704000
+3:301  0:000  Printing ACPI tables from RSDP DD704000 ...
+3:301  0:000   DD704000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:301  0:000    (Xsdt: DD704080, Rsdt: DD704028)
+3:301  0:000    DD704080: 'XSDT', 'A M I', Rev: 1, Len: 124
+3:301  0:000    DD704028: 'RSDT', 'A M I', Rev: 1, Len: 80
+3:301  0:000    Tables in Xsdt: 11
+3:301  0:000    0. DD711AF8: 'FACP', 'A M I', Rev: 5, Len: 268
+3:301  0:000        (Dsdt: DD704198, Facs: DDC53080, XDsdt: DD704198, XFacs: 0)
+3:301  0:000        DD704198: 'DSDT', 'A M I', Rev: 2, Len: 55642
+3:302  0:000        DDC53080: 'FACS', Ver: 2, Len: 64
+3:302  0:000    1. DD711C08: 'APIC', 'A M I', Rev: 3, Len: 146
+3:302  0:000    2. DD711CA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:302  0:000    3. DD711CE8: 'LPIT', 'A M I', Rev: 1, Len: 92
+3:302  0:000    4. DD711D48: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:302  0:000    5. DD712288: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:302  0:000    6. DD712D60: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:302  0:000    7. DD712DA0: 'HPET', 'A M I', Rev: 1, Len: 56
+3:302  0:000    8. DD712DD8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:302  0:000    9. DD713148: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+3:302  0:000    10. DD716688: 'BGRT', 'A M I', Rev: 0, Len: 56
+3:302  0:000    Tables in Rsdt: 11
+3:302  0:000    0. DD704110: 'FACP', 'A M I', Rev: 2, Len: 132
+3:302  0:000        (Dsdt: DD704198, Facs: DDC53040)
+3:302  0:000        DD704198: 'DSDT', 'A M I', Rev: 2, Len: 55642
+3:303  0:000        DDC53040: 'FACS', Ver: 0, Len: 64
+3:303  0:000    1. DD711C08: 'APIC', 'A M I', Rev: 3, Len: 146
+3:303  0:000    2. DD711CA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:303  0:000    3. DD711CE8: 'LPIT', 'A M I', Rev: 1, Len: 92
+3:303  0:000    4. DD711D48: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:303  0:000    5. DD712288: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:303  0:000    6. DD712D60: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:303  0:000    7. DD712DA0: 'HPET', 'A M I', Rev: 1, Len: 56
+3:303  0:000    8. DD712DD8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:303  0:000    9. DD713148: 'SSDT', 'SaSsdt', Rev: 1, Len: 13537
+3:303  0:000    10. DD716688: 'BGRT', 'A M I', Rev: 0, Len: 56
