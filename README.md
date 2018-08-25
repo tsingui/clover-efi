@@ -1,4 +1,6 @@
 # Hackintosh黑苹果驱动Clover
+[![Platform](https://camo.githubusercontent.com/916c55f0c7c52e4cced22f1399f7f03b612c1a3c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d6d61726b646f776e2d7265642e737667)](https://shields.io/) [![License](https://camo.githubusercontent.com/400da804678761636d8a4f960a924124f329d038/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4343253230342e302d626c75652e737667)](https://creativecommons.org/licenses/by/4.0/) [![progress](https://camo.githubusercontent.com/b39a886d652e8a2148958f2fd779124d202be7e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70726f67726573732d646576656c6f70696e672d79656c6c6f772e737667)](https://camo.githubusercontent.com/b39a886d652e8a2148958f2fd779124d202be7e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70726f67726573732d646576656c6f70696e672d79656c6c6f772e737667) [![contributions](https://camo.githubusercontent.com/c1b0226f0394c41e42f2a1a7d9ed71bcc7d79ad7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d677265656e2e737667)](https://github.com/huangyz0918/Hackintosh-Installer-University)
+
 Share some hackintosh Clover files.
 
 分享整理一些黑苹果Clover驱动配置文件，上传这些Clover驱动配置文件仅供大家参考使用，希望大家的黑苹果上少走一些弯路。笔记本包括:Acer、LG、华为、华硕、小米、惠普、戴尔、机械革命、神舟、联想、雷神等品牌。
@@ -17,6 +19,7 @@ Share some hackintosh Clover files.
 | H61-3570-650Ti-retal8111                           |
 | i3-2120-华硕P8H61-MLX   Plus+GTX650+RTL8192CU+12.6 |
 | i3-4170+华硕H81M+HD4600                            |
+|i3-4330+华硕H81T R2.0+HD4600                        |
 | i3-7100+微星H110+HD630+10.13                       |
 | i3-8100+技嘉B360M-GAMMING-HD+UHD630+10.13.5        |
 | i5-3470+B75M d2p+10.12.4                           |
@@ -84,6 +87,7 @@ Share some hackintosh Clover files.
 | -------------------------------- |
 | Acer Aspire VN7-591G+i5-4210H    |
 | Acer E1-570                      |
+|Acer E1-572G+i5-4200U+10.12       |
 | Acer E5 572G+i5-4200U+10.11      |
 
 # LG笔记本
@@ -177,9 +181,12 @@ Share some hackintosh Clover files.
 | 神舟战神K4 i5                                   |
 | 神舟战神K4+10.13.2                              |
 | 神舟战神K4_K610                                 |
+| 神舟战神K4+i7-4710MQ+10.11.6+亮度调节             |
+| 神舟战神K4极速版                                |
 | 神舟战神K580C-i7+10.12.3                        |
 | 神舟战神K610D+i5-4210M+10.12.6                  |
 | 神舟战神K610D-i7-D2                             |
+| 神舟战神K650D                                   |
 | 神舟战神K660D+10.13                             |
 | 神舟战神K660D-i5+10.11                          |
 | 神舟战神K660E                                   |
@@ -205,8 +212,6 @@ Share some hackintosh Clover files.
 | 神舟战神Z7m+i7+HD4600+2                         |
 | 神舟战神ZX6+i5-8400+UHD630+GTX1050              |
 | 神舟战神ZX7-CP7S2                               |
-| 神舟战神k4极速版                                |
-| 神舟战神k650D                                   |
 | 炫龙阿尔法N650DU+i5-8400+UHD630                 |
 
 # 联想笔记本
@@ -227,7 +232,7 @@ Share some hackintosh Clover files.
 | ideapad 300s-14isk+i5-6200U               |
 | ideapad 300s-14isk+i5-6200U+HD620         |
 | ideapad 500s-14isk+i5-6200U+HD520+10.12.3 |
-| idpead y700 15 +i5-6300HQ                 |
+| ideapad y700 15 +i5-6300HQ                 |
 | 联想 E40-70-i5-4210U+HD4400               |
 | 联想G480-HD4000                           |
 | 联想G50-70M-i5+4258U+HD5100               |
@@ -241,6 +246,7 @@ Share some hackintosh Clover files.
 | 联想Y700-i5+2                             |
 | 联想小新310-14ISK+i7-6500U+HD520          |
 | 联想小新700+Clover_v2.4k_r4458            |
+| 联想小新700+i5-6300HQ+HD530+10.11         |
 | 联想昭阳K21-80+i76500U+HD520+ALC236       |
 | 联想小新V1000+i7-4510U+HD4600             |
 | 联想小新锐7000 i7-7300HQ+1                |
@@ -253,6 +259,19 @@ Share some hackintosh Clover files.
 | -------------------------------- |
 | 雷神911                          |
 
+# 微星笔记本
+
+| 微星笔记本黑苹果驱动配置文件分享 |
+| -------------------------------- |
+| 微星GE40 2PC-486XCN+i5-4210M+HD4600+GTX850M+ALC269 |
+
 # 关于本项目
 
-大家可以一起来完事这个项目，我们一起让黑苹果安装越来越傻瓜化~ 
+大家可以一起来完善这个项目，我们一起让黑苹果安装越来越傻瓜化~ 
+
+# 二维码赞助
+@imfht大佬在issue里面反馈了赞助链接的问题~ emmm 受宠若惊 有点小紧张呢 如果觉得本项目帮助到你的话，请随意打赏，我们一起让这个项目更加完善。 
+## 微信赞助
+![](http://image.3001.net/images/20180721/15321448021003.gif)    
+## 支付宝赞助
+![](http://image.3001.net/images/20180721/15321446416364.gif)  
