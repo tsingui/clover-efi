@@ -19,7 +19,7 @@ Share some hackintosh Clover files.
 | H61-3570-650Ti-retal8111                           |
 | i3-2120-华硕P8H61-MLX   Plus+GTX650+RTL8192CU+12.6 |
 | i3-4170+华硕H81M+HD4600                            |
-|i3-4330+华硕H81T R2.0+HD4600                        |
+| i3-4330+华硕H81T R2.0+HD4600                       |
 | i3-7100+微星H110+HD630+10.13                       |
 | i3-8100+技嘉B360M-GAMMING-HD+UHD630+10.13.5        |
 | i5-3470+B75M d2p+10.12.4                           |
@@ -87,7 +87,7 @@ Share some hackintosh Clover files.
 | -------------------------------- |
 | Acer Aspire VN7-591G+i5-4210H    |
 | Acer E1-570                      |
-|Acer E1-572G+i5-4200U+10.12       |
+| Acer E1-572G+i5-4200U+10.12      |
 | Acer E5 572G+i5-4200U+10.11      |
 
 # LG笔记本
@@ -176,7 +176,6 @@ Share some hackintosh Clover files.
 | ----------------------------------------------- |
 | W650DC-13GM+i5-6400                             |
 | 神舟Z7+蓝天P650SE+4K屏+10.12                    |
-| 战神Z7-SL7S4-i7-6700HQ+HD530+10.13.2            |
 | 神舟战神GX8CP5S+i5-8400+GTX1070+蓝天P775TM1系列 |
 | 神舟战神K4 i5                                   |
 | 神舟战神K4+10.13.2                              |
@@ -201,8 +200,9 @@ Share some hackintosh Clover files.
 | 神舟战神Z6-SL7R3+i7-6700HQ                      |
 | 神舟战神Z6SL7D1-NVME                            |
 | 神舟战神Z7-KP7S1+10.12.6                        |
+| 神舟战神Z7-SL7S4-i7-6700HQ+HD530+10.13.2        |
 | 神舟战神Z7D2+i7+HD4600                          |
-| 神舟战神Z7D2唤醒和多分辨率切换黑屏解决          |
+| 神舟战神Z7D2唤醒和多分辨率切换黑屏解决               |
 | 神舟战神Z7DP1+i7+HD530                          |
 | 神舟战神Z7M-KP7G1+i7-7700HQ+HD630               |
 | 神舟战神Z7M-SL7D2                               |
@@ -212,6 +212,7 @@ Share some hackintosh Clover files.
 | 神舟战神Z7m+i7+HD4600+2                         |
 | 神舟战神ZX6+i5-8400+UHD630+GTX1050              |
 | 神舟战神ZX7-CP7S2                               |
+| 神舟K590S+i7-3612QM+HD4000+GTX660+10.13        |
 | 炫龙阿尔法N650DU+i5-8400+UHD630                 |
 
 # 联想笔记本
