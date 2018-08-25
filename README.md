@@ -15,7 +15,7 @@ Share some hackintosh Clover files.
 | -------------------------------------------------- |
 | E3-1230+技嘉P75D3+GTX650+10.13                     |
 | E3-1230Ⅴ2+GTX470+华硕p8b75v                        |
-| E3 1231V3+华硕B85+GTX1050Ti                        |
+| E3-1231V3+华硕B85+GTX1050Ti                        |
 | E3-1245+华擎B75+GTX760                             |
 | E5-2680V2+华硕P9+Quadro K4000+12.6                 |
 | E5-2680V2+华南X79V2+BIOS                           |
@@ -167,6 +167,7 @@ Share some hackintosh Clover files.
 | 机械革命S1+i5-8250U+MX150              |
 | 机械革命X6M                            |
 | 机械革命X6TI-S i7-6700HQ+960M+10.13    |
+| 机械革命X6Ti-S+i7-7700HQ+GTX1050Ti     |
 | 机械革命X7TI-S+i7-6700HQ+GTX1050+10.13 |
 
 # 海尔笔记本
@@ -179,6 +180,7 @@ Share some hackintosh Clover files.
 
 | 神舟笔记本黑苹果驱动配置文件分享                |
 | ----------------------------------------------- |
+| 神舟战神GX8-CP5S1/GX8-CP7S1/蓝天P775TM/TM1G+i7-8700K+10.13 |
 | W650DC-13GM+i5-6400                             |
 | 神舟Z7+蓝天P650SE+4K屏+10.12                    |
 | 神舟战神GX8CP5S+i5-8400+GTX1070+蓝天P775TM1系列 |
