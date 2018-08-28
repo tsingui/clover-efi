@@ -61,6 +61,7 @@ Share some hackintosh Clover files.
 | i5-8400+华硕Z370-A+UHD630+10.13                    |
 | i5-8400+华擎z370Pro4+GTX1050                       |
 | i5-8500+微星B360M MORTAR+10.13.6                   |
+| i5-8500+B360M+GTX1060                              |
 | i5-8600k+MSI-Z370M-MORTAR+HD630                    |
 | i5-8600k+华硕370F+GTX1050Ti                        |
 | i7-4700_B85M-D3V                                   |
