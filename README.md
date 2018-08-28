@@ -11,7 +11,7 @@ Share some hackintosh Clover files.
 
 # 如何下载Clover
 
-由于整个项目越来越来，使用`git clone`全部下载的时间可能比较长，这里建议使用[DownGit](https://minhaskamal.github.io/DownGit/#/home) 来下载你所需要的Clover文件,只需要找到仓库中对应文件夹的 url, 输入之后, 自动打包下载:    ![](http://image.3001.net/images/20180824/15350456315570.png)    
+由于整个项目越来越来丰富，使用`git clone`全部下载的时间可能比较长，这里建议使用[DownGit](https://minhaskamal.github.io/DownGit/#/home) 来下载你所需要的Clover文件,只需要找到仓库中对应文件夹的 url, 输入之后, 自动打包下载:    ![](http://image.3001.net/images/20180824/15350456315570.png)    
 
 
 
@@ -141,16 +141,24 @@ Share some hackintosh Clover files.
 
 # 惠普笔记本
 
-| 惠普笔记本黑苹果驱动配置文件分享        |
-| --------------------------------------- |
-| HP Elitebook 8系列笔记本                |
-| 惠普Elitebook 1050 G1-i7 8750H-UHD630   |
-| 惠普envy x360 15bq+i5-8250U             |
-| 光影精灵+i5-6300HQ                      |
-| 暗影精灵2代Pro+i7-7700HQ+UHD630+GTX1050 |
-| 暗影精灵3电竞版 i5                      |
-| 惠普畅游人i5-8250U+UHD620+alc295        |
-| 惠普暗影精灵2 i7-6700HQ+965M            |
+| 惠普笔记本黑苹果驱动配置文件分享            |
+| ------------------------------------------- |
+| 惠普 348 G3                                 |
+| 惠普 Elitebook 8系列笔记本                  |
+| 惠普ENVY 13                                 |
+| 惠普Elitebook 1050 G1-i7 8750H-UHD630       |
+| 惠普畅游人i5-8250U+UHD620+alc295            |
+| 惠普光影精灵+i7-6700HQ+GTX960M              |
+| 惠普暗影精灵1+i5+GTX950M+10.11              |
+| 惠普光影精灵1+i5-6300HQ+GTX950M             |
+| 惠普暗影精灵2 i7-6700HQ+965M                |
+| 惠普暗影精灵2+10.13.3                       |
+| 惠普光影精灵2+i5-6300HQ+10.13               |
+| 惠普暗影精灵2+i5-6300HQ+10.14Beta3          |
+| 惠普暗影精灵2代Pro+i7-7700HQ+UHD630+GTX1050 |
+| 惠普光影精灵3                               |
+| 惠普光影精灵3 15-CB074TX                    |
+| 惠普暗影精灵3电竞版 i5                      |
 
 # 戴尔笔记本
 
