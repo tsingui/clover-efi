@@ -152,6 +152,7 @@ Share some hackintosh Clover files.
 | Dell Inspiron 7520                         |
 | Dell Vostro成就 5459+i7-6500U+10.12.5      |
 | Dell XPS 13 9350 i7-6500U+3k触摸屏+10.13.6 |
+| Dell XPS 13 9350                           |
 | Dell XPS 15 9550                           |
 | Dell 燃7000                                |
 | Dell 灵越15 3543+i5-5200U                  |
