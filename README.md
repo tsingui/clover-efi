@@ -17,11 +17,14 @@ Share some hackintosh Clover files.
 
 # PC台式机
 
-| 黑苹果常见台式机驱动Clover配置文件分享             |
+| 黑苹果常见台式机黑苹果驱动Clover配置文件分享       |
 | -------------------------------------------------- |
 | E3-1230+技嘉P75D3+GTX650+10.13                     |
+| E3-1230V3+技嘉B85-D3V+GTX650+10.13.3+缺声卡        |
+| E3-1230V5+华硕E3 PRO GAMING V5                     |
 | E3-1230Ⅴ2+GTX470+华硕p8b75v                        |
 | E3-1231V3+华硕B85+GTX1050Ti                        |
+| E3-1231V3+技嘉G1B6+10.13                           |
 | E3-1245+华擎B75+GTX760                             |
 | E5-2680V2+华硕P9+Quadro K4000+12.6                 |
 | E5-2680V2+华南X79V2+BIOS                           |
@@ -32,6 +35,7 @@ Share some hackintosh Clover files.
 | i3-4170+华硕H81M+HD4600                            |
 | i3-4330+华硕H81T R2.0+HD4600                       |
 | i3-7100+微星H110+HD630+10.13                       |
+| i3-7100+华硕H110M-E+10.12.5                        |
 | i3-8100+技嘉B360M-GAMMING-HD+UHD630+10.13.5        |
 | i5-3470+B75M d2p+10.12.4                           |
 | i5-4460+华硕H81M-K                                 |
@@ -59,6 +63,7 @@ Share some hackintosh Clover files.
 | i5-8400+Z370N+10.13                                |
 | i5-8400+技嘉B360M D3SH                             |
 | i5-8400+华硕B360m+1050Ti                           |
+| i5-8400+技嘉Z370 HD3P+10.13                        |
 | i5-8400+华硕Z370-A+UHD630+10.13                    |
 | i5-8400+华擎z370Pro4+GTX1050                       |
 | i5-8500+微星B360M MORTAR+10.13.6                   |
@@ -77,7 +82,7 @@ Share some hackintosh Clover files.
 | i7-7700+技嘉BM250+GTX1060                          |
 | i7-7700K+GTX1080+华硕Z270H                         |
 | i7-7700K+华硕Z270+GTX1080                          |
-| i7-7700k+Z270主板的通用模版                        |
+| i7-7700k+z270主板的通用模版                        |
 | i7-7700k+华硕PRIME Z270-P                          |
 | i7-7700k+华硕Z270-A+NVme硬盘                       |
 | i7-8700+技嘉Z370+GTX1060                           |
@@ -87,19 +92,11 @@ Share some hackintosh Clover files.
 | i7-8700K+OC4.8+MSI Z370+itx 16G+GTX760             |
 | i7-8700K+华硕Z370-i+GTX1060+10.13.4                |
 | i7-8700K+微星z370M终结者                           |
-| i7-8700k+Z3700+1050Ti                              |
+| i7-8700k+z3700+1050Ti                              |
+| 华硕ASUS-Z97-K R2.0+GTX970                         |
 | 技嘉B150M                                          |
 | 华硕B150M-k d3+HD530+10.13.6                       |
 | 华硕p8h61-m LX主板                                 |
-
-# Acer宏碁笔记本
-
-| Acer笔记本黑苹果驱动配置文件分享 |
-| -------------------------------- |
-| Acer Aspire VN7-591G+i5-4210H    |
-| Acer E1-570                      |
-| Acer E1-572G+i5-4200U+10.12      |
-| Acer E5 572G+i5-4200U+10.11      |
 
 # LG笔记本
 
