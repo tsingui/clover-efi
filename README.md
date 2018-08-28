@@ -7,7 +7,7 @@ Share some hackintosh Clover files.
 
 # 特此感谢
 衷心感谢以下热心网友们对本项目的贡献，以下排名不分先后:  
-不二臣、DrmanhattanS、国光、Hyhm2n、种地老头、黑苹果安装园地
+不二臣、DrmanhattanS、国光、Hyhm2n、种地老头、黑苹果安装园地、Liod
 
 # 如何下载Clover
 
@@ -236,9 +236,8 @@ Share some hackintosh Clover files.
 
 # 联想笔记本
 
-| 联想笔记本黑苹果驱动配置文件分享          |
+| 笔记本黑苹果驱动配置文件分享              |
 | ----------------------------------------- |
-| Lenovo Y480N-IFI+i5-3210M+HD4000          |
 | ThinkPad L460+i5-6200HQ                   |
 | ThinkPad T540-i5-4300M                    |
 | ThinkPad X230+i5-3320M+HD4000             |
@@ -252,21 +251,26 @@ Share some hackintosh Clover files.
 | ideapad 300s-14isk+i5-6200U               |
 | ideapad 300s-14isk+i5-6200U+HD620         |
 | ideapad 500s-14isk+i5-6200U+HD520+10.12.3 |
-| ideapad y700 15 +i5-6300HQ                 |
+| ideapad y700 15 +i5-6300HQ                |
 | 联想 E40-70-i5-4210U+HD4400               |
 | 联想G480-HD4000                           |
 | 联想G50-70M-i5+4258U+HD5100               |
+| 联想G50-80                                |
 | 联想S410+i5-4200U                         |
 | 联想Y470                                  |
 | 联想Y480                                  |
+| 联想Y480N-IFI+i5-3210M+HD4000             |
 | 联想Y50-10.13                             |
 | 联想Y510P-i7-4700M                        |
 | 联想Y700-6700HQ                           |
 | 联想Y700-i5+1                             |
 | 联想Y700-i5+2                             |
+| 联想小新 V3000-ISE+i7-5500U               |
 | 联想小新310-14ISK+i7-6500U+HD520          |
 | 联想小新700+Clover_v2.4k_r4458            |
 | 联想小新700+i5-6300HQ+HD530+10.11         |
+| 联想小新Air 13 Pro                        |
+| 联想昭阳E50-80+i5-5200U                   |
 | 联想昭阳K21-80+i76500U+HD520+ALC236       |
 | 联想小新V1000+i7-4510U+HD4600             |
 | 联想小新锐7000 i7-7300HQ+1                |
