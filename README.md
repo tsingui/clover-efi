@@ -58,6 +58,8 @@ Share some hackintosh Clover files.
 | i5-8400+技嘉B360M D3SH                             |
 | i5-8400+华硕B360m+1050Ti                           |
 | i5-8400+技嘉Z370 HD3P+10.13                        |
+| i5-8400+微星B360M MORTAR迫击炮+AMD RX560+10.13.6   |
+| i5-8400+微星B360M MORTAR迫击炮+UDH630+10.13.6      |
 | i5-8400+华硕Z370-A+UHD630+10.13                    |
 | i5-8400+华擎z370Pro4+GTX1050                       |
 | i5-8500+微星B360M MORTAR+10.13.6                   |
@@ -86,6 +88,7 @@ Share some hackintosh Clover files.
 | i7-8700K+MSIZ370-A+GTX1060                         |
 | i7-8700K+OC4.8+MSI Z370+itx 16G+GTX760             |
 | i7-8700K+华硕Z370-i+GTX1060+10.13.4                |
+| i7-8700K+技嘉Z370XP-SLI+Radeon RX Vega 56+10.13.6  |
 | i7-8700K+微星z370M终结者                           |
 | i7-8700k+z3700+1050Ti                              |
 | 华硕ASUS-Z97-K R2.0+GTX970                         |
@@ -252,6 +255,7 @@ Share some hackintosh Clover files.
 | ideapad 500s-14isk+i5-6200U+HD520+10.12.3        |
 | ideapad y700 15 +i5-6300HQ                       |
 | 联想 E40-70-i5-4210U+HD4400                      |
+| 联想 E42-80+i7-6567U+Intel iris 550+ALC268+10.13 |
 | 联想G480-HD4000                                  |
 | 联想G50-70M-i5+4258U+HD5100                      |
 | 联想S410+i5-4200U                                |

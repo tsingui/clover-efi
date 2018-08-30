@@ -1,0 +1,156 @@
+13:015  2:164  Found BIOS RSDP at FCCF0
+13:015  0:000  Printing ACPI tables from RSDP FCCF0 ...
+13:015  0:000   FCCF0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+13:015  0:000    (Xsdt: BCF900A0, Rsdt: BCF90028)
+13:015  0:000    BCF900A0: 'XSDT', 'A M I', Rev: 1, Len: 188
+13:015  0:000    BCF90028: 'RSDT', 'A M I', Rev: 1, Len: 112
+13:015  0:000    Tables in Xsdt: 19
+13:015  0:000    0. BCFB34D0: 'FACP', 'A M I', Rev: 5, Len: 268
+13:015  0:000        (Dsdt: BCF901F8, Facs: C74FDF80, XDsdt: BCF901F8, XFacs: 0)
+13:015  0:000        BCF901F8: 'DSDT', 'A M I', Rev: 2, Len: 144085
+13:017  0:001        C74FDF80: 'FACS', Ver: 2, Len: 64
+13:017  0:000    1. BCFB35E0: 'APIC', 'A M I', Rev: 3, Len: 188
+13:017  0:000    2. BCFB36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:017  0:000    3. BCFB36E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:017  0:000    4. BCFB3788: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:017  0:000    5. BCFB37C8: 'HPET', 'A M I', Rev: 1, Len: 56
+13:017  0:000    6. BCFB3800: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+13:017  0:000    7. BCFB3B70: 'LPIT', 'SKL', Rev: 1, Len: 148
+13:017  0:000    8. BCFB3C08: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+13:017  0:000    9. BCFB3E50: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+13:017  0:000    10. BCFB6A00: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+13:017  0:000    11. BCFB75E8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+13:017  0:000    12. BCFB7A90: 'DBGP', '', Rev: 1, Len: 52
+13:017  0:000    13. BCFB7AC8: 'DBG2', '', Rev: 0, Len: 84
+13:017  0:000    14. BCFB7B20: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+13:017  0:000    15. BCFB8228: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+13:017  0:000    16. BCFBD588: 'UEFI', '', Rev: 1, Len: 66
+13:017  0:000    17. BCFBD5D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+13:017  0:000    18. BCFBE4A0: 'BGRT', 'A M I', Rev: 1, Len: 56
+13:017  0:000    Tables in Rsdt: 19
+13:017  0:000    0. BCF90170: 'FACP', 'A M I', Rev: 2, Len: 132
+13:017  0:000        (Dsdt: BCF901F8, Facs: C74FDF40)
+13:017  0:000        BCF901F8: 'DSDT', 'A M I', Rev: 2, Len: 144085
+13:018  0:001        C74FDF40: 'FACS', Ver: 0, Len: 64
+13:018  0:000    1. BCFB35E0: 'APIC', 'A M I', Rev: 3, Len: 188
+13:018  0:000    2. BCFB36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:018  0:000    3. BCFB36E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:018  0:000    4. BCFB3788: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:018  0:000    5. BCFB37C8: 'HPET', 'A M I', Rev: 1, Len: 56
+13:018  0:000    6. BCFB3800: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+13:018  0:000    7. BCFB3B70: 'LPIT', 'SKL', Rev: 1, Len: 148
+13:018  0:000    8. BCFB3C08: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+13:018  0:000    9. BCFB3E50: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+13:018  0:000    10. BCFB6A00: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+13:018  0:000    11. BCFB75E8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+13:018  0:000    12. BCFB7A90: 'DBGP', '', Rev: 1, Len: 52
+13:018  0:000    13. BCFB7AC8: 'DBG2', '', Rev: 0, Len: 84
+13:018  0:000    14. BCFB7B20: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+13:018  0:000    15. BCFB8228: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+13:018  0:000    16. BCFBD588: 'UEFI', '', Rev: 1, Len: 66
+13:018  0:000    17. BCFBD5D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+13:018  0:000    18. BCFBE4A0: 'BGRT', 'A M I', Rev: 1, Len: 56
+13:018  0:000  Found UEFI Acpi 2.0 RSDP at BCF90000
+13:018  0:000  Saving ACPI tables from RSDP BCF90000 to EFI\CLOVER\ACPI\origin ...
+13:018  0:000   BCF90000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+13:018  0:000    (Xsdt: BCF900A0, Rsdt: BCF90028)
+13:018  0:000    BCF900A0: 'XSDT', 'A M I', Rev: 1, Len: 188
+13:018  0:000    BCF90028: 'RSDT', 'A M I', Rev: 1, Len: 112
+13:018  0:000    Tables in Xsdt: 19
+13:018  0:000    0. BCFB34D0: 'FACP', 'A M I', Rev: 5, Len: 268
+13:018  0:000        (Dsdt: BCF901F8, Facs: C74FDF80, XDsdt: BCF901F8, XFacs: 0)
+13:018  0:000        BCF901F8: 'DSDT', 'A M I', Rev: 2, Len: 144085
+13:020  0:001        C74FDF80: 'FACS', Ver: 2, Len: 64
+13:020  0:000    1. BCFB35E0: 'APIC', 'A M I', Rev: 3, Len: 188
+13:020  0:000    2. BCFB36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:020  0:000    3. BCFB36E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:020  0:000    4. BCFB3788: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:020  0:000    5. BCFB37C8: 'HPET', 'A M I', Rev: 1, Len: 56
+13:020  0:000    6. BCFB3800: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+13:020  0:000    7. BCFB3B70: 'LPIT', 'SKL', Rev: 1, Len: 148
+13:020  0:000    8. BCFB3C08: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+13:020  0:000    9. BCFB3E50: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+13:020  0:000    10. BCFB6A00: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+13:020  0:000    11. BCFB75E8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+13:020  0:000    12. BCFB7A90: 'DBGP', '', Rev: 1, Len: 52
+13:020  0:000    13. BCFB7AC8: 'DBG2', '', Rev: 0, Len: 84
+13:020  0:000    14. BCFB7B20: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+13:020  0:000    15. BCFB8228: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+13:020  0:000    16. BCFBD588: 'UEFI', '', Rev: 1, Len: 66
+13:020  0:000    17. BCFBD5D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+13:020  0:000    18. BCFBE4A0: 'BGRT', 'A M I', Rev: 1, Len: 56
+13:020  0:000    Tables in Rsdt: 19
+13:020  0:000    0. BCF90170: 'FACP', 'A M I', Rev: 2, Len: 132
+13:020  0:000        (Dsdt: BCF901F8, Facs: C74FDF40)
+13:020  0:000        BCF901F8: 'DSDT', 'A M I', Rev: 2, Len: 144085
+13:022  0:001        C74FDF40: 'FACS', Ver: 0, Len: 64
+13:022  0:000    1. BCFB35E0: 'APIC', 'A M I', Rev: 3, Len: 188
+13:022  0:000    2. BCFB36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:022  0:000    3. BCFB36E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:022  0:000    4. BCFB3788: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:022  0:000    5. BCFB37C8: 'HPET', 'A M I', Rev: 1, Len: 56
+13:022  0:000    6. BCFB3800: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+13:022  0:000    7. BCFB3B70: 'LPIT', 'SKL', Rev: 1, Len: 148
+13:022  0:000    8. BCFB3C08: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+13:022  0:000    9. BCFB3E50: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+13:022  0:000    10. BCFB6A00: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+13:022  0:000    11. BCFB75E8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+13:022  0:000    12. BCFB7A90: 'DBGP', '', Rev: 1, Len: 52
+13:022  0:000    13. BCFB7AC8: 'DBG2', '', Rev: 0, Len: 84
+13:022  0:000    14. BCFB7B20: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+13:022  0:000    15. BCFB8228: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+13:022  0:000    16. BCFBD588: 'UEFI', '', Rev: 1, Len: 66
+13:022  0:000    17. BCFBD5D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+13:022  0:000    18. BCFBE4A0: 'BGRT', 'A M I', Rev: 1, Len: 56
+13:022  0:000  Found UEFI Acpi 1.0 RSDP at BCF90000
+13:022  0:000  Printing ACPI tables from RSDP BCF90000 ...
+13:022  0:000   BCF90000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+13:022  0:000    (Xsdt: BCF900A0, Rsdt: BCF90028)
+13:022  0:000    BCF900A0: 'XSDT', 'A M I', Rev: 1, Len: 188
+13:022  0:000    BCF90028: 'RSDT', 'A M I', Rev: 1, Len: 112
+13:022  0:000    Tables in Xsdt: 19
+13:022  0:000    0. BCFB34D0: 'FACP', 'A M I', Rev: 5, Len: 268
+13:022  0:000        (Dsdt: BCF901F8, Facs: C74FDF80, XDsdt: BCF901F8, XFacs: 0)
+13:022  0:000        BCF901F8: 'DSDT', 'A M I', Rev: 2, Len: 144085
+13:023  0:001        C74FDF80: 'FACS', Ver: 2, Len: 64
+13:023  0:000    1. BCFB35E0: 'APIC', 'A M I', Rev: 3, Len: 188
+13:023  0:000    2. BCFB36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:023  0:000    3. BCFB36E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:023  0:000    4. BCFB3788: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:023  0:000    5. BCFB37C8: 'HPET', 'A M I', Rev: 1, Len: 56
+13:023  0:000    6. BCFB3800: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+13:023  0:000    7. BCFB3B70: 'LPIT', 'SKL', Rev: 1, Len: 148
+13:023  0:000    8. BCFB3C08: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+13:023  0:000    9. BCFB3E50: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+13:023  0:000    10. BCFB6A00: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+13:023  0:000    11. BCFB75E8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+13:023  0:000    12. BCFB7A90: 'DBGP', '', Rev: 1, Len: 52
+13:023  0:000    13. BCFB7AC8: 'DBG2', '', Rev: 0, Len: 84
+13:023  0:000    14. BCFB7B20: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+13:023  0:000    15. BCFB8228: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+13:023  0:000    16. BCFBD588: 'UEFI', '', Rev: 1, Len: 66
+13:023  0:000    17. BCFBD5D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+13:023  0:000    18. BCFBE4A0: 'BGRT', 'A M I', Rev: 1, Len: 56
+13:023  0:000    Tables in Rsdt: 19
+13:023  0:000    0. BCF90170: 'FACP', 'A M I', Rev: 2, Len: 132
+13:023  0:000        (Dsdt: BCF901F8, Facs: C74FDF40)
+13:023  0:000        BCF901F8: 'DSDT', 'A M I', Rev: 2, Len: 144085
+13:025  0:001        C74FDF40: 'FACS', Ver: 0, Len: 64
+13:025  0:000    1. BCFB35E0: 'APIC', 'A M I', Rev: 3, Len: 188
+13:025  0:000    2. BCFB36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:025  0:000    3. BCFB36E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:025  0:000    4. BCFB3788: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:025  0:000    5. BCFB37C8: 'HPET', 'A M I', Rev: 1, Len: 56
+13:025  0:000    6. BCFB3800: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+13:025  0:000    7. BCFB3B70: 'LPIT', 'SKL', Rev: 1, Len: 148
+13:025  0:000    8. BCFB3C08: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+13:025  0:000    9. BCFB3E50: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+13:025  0:000    10. BCFB6A00: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+13:025  0:000    11. BCFB75E8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+13:025  0:000    12. BCFB7A90: 'DBGP', '', Rev: 1, Len: 52
+13:025  0:000    13. BCFB7AC8: 'DBG2', '', Rev: 0, Len: 84
+13:025  0:000    14. BCFB7B20: 'SSDT', 'xh_rvp08', Rev: 2, Len: 1797
+13:025  0:000    15. BCFB8228: 'SSDT', 'SaSsdt', Rev: 2, Len: 21337
+13:025  0:000    16. BCFBD588: 'UEFI', '', Rev: 1, Len: 66
+13:025  0:000    17. BCFBD5D0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+13:025  0:000    18. BCFBE4A0: 'BGRT', 'A M I', Rev: 1, Len: 56
