@@ -91,6 +91,7 @@ Share some hackintosh Clover files.
 | i7-8700K+技嘉Z370XP-SLI+Radeon RX Vega 56+10.13.6  |
 | i7-8700K+微星z370M终结者                           |
 | i7-8700k+z3700+1050Ti                              |
+| i7-8700K+华硕Z370-E+AMD Radeon HD 7950 3GB+10.13   |
 | 华硕ASUS-Z97-K R2.0+GTX970                         |
 | 技嘉B150M                                          |
 | 华硕B150M-k d3+HD530+10.13.6                       |
@@ -262,6 +263,7 @@ Share some hackintosh Clover files.
 | 联想Y470                                         |
 | 联想Y480                                         |
 | 联想Y50-10.13                                    |
+| 联想Y410P+i5-4200M+GT 755M+10.13                 |
 | 联想Y510P-i7-4700M                               |
 | 联想Y700-6700HQ                                  |
 | 联想Y700-i5+1                                    |
