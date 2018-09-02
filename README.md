@@ -17,7 +17,7 @@ Share some hackintosh Clover files.
 | E3-1230V3+技嘉B85-D3V+GTX650+10.13.3+缺声卡        |
 | E3-1230V5+华硕E3 PRO GAMING V5                     |
 | E3-1230V2+GTX470+华硕p8b75v                        |
-| E3-1230V2+技嘉GA-B75-D3V+AMD Radeon HD7850+10.13.5 |
+| E3-1230V2+技嘉GA-B75-D3V+AMD Radeon HD7850+10.13 |
 | E3-1231V3+华硕B85+GTX1050Ti                        |
 | E3-1231V3+技嘉G1B6+10.13                           |
 | E3-1245+华擎B75+GTX760                             |
