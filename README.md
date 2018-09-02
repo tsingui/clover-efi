@@ -17,6 +17,7 @@ Share some hackintosh Clover files.
 | E3-1230V3+技嘉B85-D3V+GTX650+10.13.3+缺声卡        |
 | E3-1230V5+华硕E3 PRO GAMING V5                     |
 | E3-1230V2+GTX470+华硕p8b75v                        |
+| E3-1230V2+技嘉GA-B75-D3V+AMD Radeon HD7850+10.13.5 |
 | E3-1231V3+华硕B85+GTX1050Ti                        |
 | E3-1231V3+技嘉G1B6+10.13                           |
 | E3-1245+华擎B75+GTX760                             |
@@ -88,6 +89,7 @@ Share some hackintosh Clover files.
 | i7-8700K+MSIZ370-A+GTX1060                         |
 | i7-8700K+OC4.8+MSI Z370+itx 16G+GTX760             |
 | i7-8700K+华硕Z370-i+GTX1060+10.13.4                |
+| i7-8700K+技嘉Z370 HD3+AMD RX580+10.13.5            |
 | i7-8700K+技嘉Z370XP-SLI+Radeon RX Vega 56+10.13.6  |
 | i7-8700K+微星z370M终结者                           |
 | i7-8700k+z3700+1050Ti                              |
