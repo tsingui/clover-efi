@@ -1,0 +1,41 @@
+详见：http://bbs.pcbeta.com/viewthread-1786122-1-1.html
+ 
+配置
+    处理器      英特尔 Xeon(至强) E5-2650 0 @ 2.00GHz 八核
+    主板        英特尔 X79 ( 英特尔 Xeon E5/Core i7 DMI2 - X79 PCH - )
+    内存        8 GB ( 南亚易胜 DDR3 1333MHz )
+    主硬盘      BR240G ( 240 GB / 固态硬盘 )
+    显卡        Nvidia GeForce GTX 750 Ti ( 2 GB / Nvidia )
+    声卡        Realtek ALC662 @ Intel Patsburg PCH - High Definition Audio Controller
+    网卡        瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller
+ 
+镜像来源
+    http://bbs.pcbeta.com/viewthread-1780088-1-1.html
+ 
+clover来源
+    https://github.com/cheneyveron/clover-x79-e5-2670-gtx650
+ 
+AppleACPIPlatform(MACH Reboot)问题
+    http://bbs.pcbeta.com/viewthread-1753833-1-1.html
+ 
+声卡驱动
+    [教程] AppleHDA Patcher详细教程
+    http://bbs.pcbeta.com/viewthread-1684683-1-1.html
+    下载地址
+        https://www.insanelymac.com/forum/files/file/496-applehda-patcher/
+ 
+    驱动方法四中选一（aDummyHDA必须安装到S/L/E下）：
+        1. config.plist+aDummyHDA.kext+原版AppleHDA.kext（推荐）
+        2. config.plist+仿冒AppleHDA.kext
+        3. 用HDEF_Patch.txt给DSDT打补丁+aDummyHDA.kext+原版AppleHDA.kext
+        4. HDAEnabler.kext+仿冒AppleHDA.kext
+    注入方法三种选一：
+        1. clover注入，用记事本打开config.plist，把内容粘贴到clover的配置文件里面
+        2. DSDT注入，用记事本打开HDEF_Patch.txt，把内容粘贴到你的DSDT文件里面（前提条件是，你有用到DSDT文件）
+        3. 直接安装HDAEnabler.kext到S/L/E
+ 
+final_config.plist:
+    最终安装在硬盘EFI分区的clover的配置，去除了无用的启动参数，隐藏无关引导项等等。
+ 
+clover_final：
+    系统安装用clover备份，与最终硬盘EFI分区的clover的区别是：没有声卡驱动，config.plist添加了debug等启动参数
