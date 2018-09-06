@@ -7,7 +7,7 @@ Share some hackintosh Clover files.
 
 # 特此感谢
 衷心感谢以下热心网友们对本项目的贡献，以下排名不分先后:  
-不二臣、DrmanhattanS、国光、Hyhm2n、种地老头、黑苹果安装园地、hnie-xwz、杨飞飞
+不二臣、DrmanhattanS、国光、Hyhm2n、种地老头、黑苹果安装园地、hnie-xwz、杨飞飞、南枝向暖北枝寒、吐球球了吼
 
 # 如何下载指定文件夹
 
