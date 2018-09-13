@@ -15,7 +15,7 @@ Share some hackintosh Clover files.
 
 ![](http://image.3001.net/images/20180824/15350456315570.png)  
 
-驱动下载不下来的话在`issue`下面留下邮箱和想下载的驱动，每天我会抽时间统一回复的。评论案例:  
+驱动下载不下来的话在`issue`下面留下邮箱和想下载的驱动，~~每天我会抽时间统一回复的~~。评论案例:  
 
 ```R
 admin@sqlsec.com + Dell XPS 13 9350 i7-6500U+3k 触摸屏 + 10.13.6 楼主好人一生平安
