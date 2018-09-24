@@ -7,7 +7,7 @@ Share some hackintosh Clover files.
 
 # 特此感谢
 衷心感谢以下热心网友们对本项目的贡献，以下排名不分先后:  
-不二臣、DrmanhattanS、国光、Hyhm2n、种地老头、黑苹果安装园地、hnie-xwz、杨飞飞、南枝向暖北枝寒、吐球球了吼、King OF BIG HAMMER、恋爱spy
+不二臣、DrmanhattanS、国光、Hyhm2n、种地老头、黑苹果安装园地、hnie-xwz、杨飞飞、南枝向暖北枝寒、吐球球了吼、King OF BIG HAMMER、恋爱spy、黑苹果小兵
 
 # 如何下载指定文件夹
 
@@ -276,6 +276,7 @@ admin@sqlsec.com + Dell XPS 13 9350 i7-6500U+3k 触摸屏 + 10.13.6 楼主好人
 | ThinkPad T540-i5-4300M                             |
 | ThinkPad X230+i5-3320M+HD4000                      |
 | ThinkPad w530+10.12                                |
+| ThinkPad X260 +i5-6200U+10.13.6                    |
 | ThinkPad x270+i7-6500U+10.13.5                     |
 | ThinkPadE431+i7-3632QM                             |
 | TinkPad T450s+i5-5200U+HD5500                      |
