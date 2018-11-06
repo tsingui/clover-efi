@@ -1,0 +1,1 @@
+无法进入系统的情况在未挂载显卡驱动下把/System/Library/Frameworks/OpenCL.framework/Versions/Current/Libraries/libCLVMIGILPlugin.dylib.bakak把后面的.bakak扩展删除到 libCLVMIGILPlugin.dylib 保存替换

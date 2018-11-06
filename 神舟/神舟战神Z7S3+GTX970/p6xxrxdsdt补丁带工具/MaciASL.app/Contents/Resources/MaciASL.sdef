@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="MaciASL Terminology" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
+    <suite name="Compiler Suite" code="mias" description="MaciASL specific commands.">
+        <class-extension extends="application" description="MaciASL's top level scripting object.">
+            <element type="document"/>
+        </class-extension>
+        <class-extension extends="document" description="A MaciASL document.">
+            <cocoa class="Document"/>
+            <property name="text" code="iasl" type="text" description="The text of the document."/>
+            <responds-to name="patch">
+                <cocoa method="asPatch:"/>
+            </responds-to>
+            <responds-to name="compile">
+                <cocoa method="asCompile:"/>
+            </responds-to>
+        </class-extension>
+        <command name="patch" code="ptchdocu" description="Patch a document.">
+            <direct-parameter type="document" description="document to patch">
+                <cocoa key="document"/>
+            </direct-parameter>
+            <parameter name="with file" type="file" code="ptfl" description="patch file">
+                <cocoa key="patchfile"/>
+            </parameter>
+            <result type="patching summary" description="the number of patches and changes applied"/>
+        </command>
+        <command name="compile" code="cmpldocu" description="Compile a document.">
+            <direct-parameter type="document" description="document to compile">
+                <cocoa key="document"/>
+            </direct-parameter>
+            <result type="compiler summary" description="the number of errors, warnings, remarks, and optimizations"/>
+        </command>
+        <enumeration name="saveable file format" code="savf">
+            <enumerator name="DSL" code="dslf" description="Disassembled ASL">
+                <cocoa string-value="org.acpica.dsl"/>
+            </enumerator>
+            <enumerator name="AML" code="amlf" description="ACPI Machine Language">
+                <cocoa string-value="org.acpica.aml"/>
+            </enumerator>
+        </enumeration>
+        <record-type name="compiler summary" code="cpsm">
+            <property name="errors" code="erro" description="errors emitted by the compiler">
+                <type type="text" list="yes"/>
+                <cocoa key="errors"/>
+            </property>
+            <property name="warnings" code="warn" description="warnings emitted by the compiler">
+                <type type="text" list="yes"/>
+                <cocoa key="warnings"/>
+            </property>
+            <property name="remarks" code="rmrk" description="remarks emitted by the compiler">
+                <type type="text" list="yes"/>
+                <cocoa key="remarks"/>
+            </property>
+            <property name="optimizations" code="optm" description="optimizations emitted by the compiler">
+                <type type="text" list="yes"/>
+                <cocoa key="optimizations"/>
+            </property>
+        </record-type>
+        <record-type name="patching summary" code="ptcm">
+            <property name="patches" code="ptcs" type="integer" description="patches applied by the patcher">
+                <cocoa key="patches"/>
+            </property>
+            <property name="changes" code="chgs" type="integer" description="changes applied by the patcher">
+                <cocoa key="changes"/>
+            </property>
+            <property name="rejects" code="rjts" type="integer" description="changes rejected by the patcher">
+                <cocoa key="rejects"/>
+            </property>
+        </record-type>
+    </suite>
+</dictionary>

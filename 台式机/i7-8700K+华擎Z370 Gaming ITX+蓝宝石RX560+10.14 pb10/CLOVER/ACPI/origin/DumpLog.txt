@@ -1,0 +1,176 @@
+11:958  0:748  Found BIOS RSDP at FDD10
+11:958  0:000  Printing ACPI tables from RSDP FDD10 ...
+11:958  0:000   FDD10: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:958  0:000    (Xsdt: 670790A8, Rsdt: 67079028)
+11:958  0:000    670790A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+11:958  0:000    67079028: 'RSDT', 'A M I', Rev: 1, Len: 120
+11:958  0:000    Tables in Xsdt: 21
+11:958  0:000    0. 6709DF80: 'FACP', 'A M I', Rev: 6, Len: 276
+11:958  0:000        (Dsdt: 67079208, Facs: 67414F00, XDsdt: 67079208, XFacs: 0)
+11:958  0:000        67079208: 'DSDT', 'A M I', Rev: 2, Len: 150903
+11:960  0:001        67414F00: 'FACS', Ver: 2, Len: 64
+11:960  0:000    1. 6709E098: 'APIC', 'A M I', Rev: 3, Len: 244
+11:960  0:000    2. 6709E190: 'FPDT', 'A M I', Rev: 1, Len: 68
+11:960  0:000    3. 6709E1D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+11:960  0:000    4. 6709E278: 'MCFG', 'A M I', Rev: 1, Len: 60
+11:960  0:000    5. 6709E2B8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+11:960  0:000    6. 6709E660: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+11:960  0:000    7. 670A17B8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+11:960  0:000    8. 670A3C80: 'HPET', 'KBL', Rev: 1, Len: 56
+11:960  0:000    9. 670A3CB8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2605
+11:960  0:000    10. 670A46E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+11:960  0:000    11. 670A4730: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+11:960  0:000    12. 670A5EE0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 1104
+11:960  0:000    13. 670A6330: 'LPIT', 'KBL', Rev: 1, Len: 148
+11:960  0:000    14. 670A63C8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+11:960  0:000    15. 670A6510: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+11:960  0:000    16. 670A6A28: 'DBGP', '', Rev: 1, Len: 52
+11:960  0:000    17. 670A6A60: 'DBG2', '', Rev: 0, Len: 84
+11:960  0:000    18. 670A6AB8: 'DMAR', 'KBL', Rev: 1, Len: 168
+11:960  0:000    19. 670A6B60: 'BGRT', 'A M I', Rev: 1, Len: 56
+11:960  0:000    20. 670A6B98: 'WSMT', 'A M I', Rev: 1, Len: 40
+11:960  0:000    Tables in Rsdt: 21
+11:960  0:000    0. 67079180: 'FACP', 'A M I', Rev: 2, Len: 132
+11:960  0:000        (Dsdt: 67079208, Facs: 67414EC0)
+11:960  0:000        67079208: 'DSDT', 'A M I', Rev: 2, Len: 150903
+11:962  0:001        67414EC0: 'FACS', Ver: 0, Len: 64
+11:962  0:000    1. 6709E098: 'APIC', 'A M I', Rev: 3, Len: 244
+11:962  0:000    2. 6709E190: 'FPDT', 'A M I', Rev: 1, Len: 68
+11:962  0:000    3. 6709E1D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+11:962  0:000    4. 6709E278: 'MCFG', 'A M I', Rev: 1, Len: 60
+11:962  0:000    5. 6709E2B8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+11:962  0:000    6. 6709E660: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+11:962  0:000    7. 670A17B8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+11:962  0:000    8. 670A3C80: 'HPET', 'KBL', Rev: 1, Len: 56
+11:962  0:000    9. 670A3CB8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2605
+11:962  0:000    10. 670A46E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+11:962  0:000    11. 670A4730: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+11:962  0:000    12. 670A5EE0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 1104
+11:962  0:000    13. 670A6330: 'LPIT', 'KBL', Rev: 1, Len: 148
+11:962  0:000    14. 670A63C8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+11:962  0:000    15. 670A6510: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+11:962  0:000    16. 670A6A28: 'DBGP', '', Rev: 1, Len: 52
+11:962  0:000    17. 670A6A60: 'DBG2', '', Rev: 0, Len: 84
+11:962  0:000    18. 670A6AB8: 'DMAR', 'KBL', Rev: 1, Len: 168
+11:962  0:000    19. 670A6B60: 'BGRT', 'A M I', Rev: 1, Len: 56
+11:962  0:000    20. 670A6B98: 'WSMT', 'A M I', Rev: 1, Len: 40
+11:962  0:000  Found UEFI Acpi 2.0 RSDP at 67079000
+11:962  0:000  Saving ACPI tables from RSDP 67079000 to EFI\CLOVER\ACPI\origin ...
+11:962  0:000   67079000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+11:984  0:022    (Xsdt: 670790A8, Rsdt: 67079028)
+11:984  0:000    670790A8: 'XSDT', 'A M I', Rev: 1, Len: 204 -> XSDT.aml
+12:001  0:017    67079028: 'RSDT', 'A M I', Rev: 1, Len: 120 -> RSDT.aml
+12:018  0:017    Tables in Xsdt: 21
+12:018  0:000    0. 6709DF80: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+12:035  0:017        (Dsdt: 67079208, Facs: 67414F00, XDsdt: 67079208, XFacs: 0)
+12:035  0:000        67079208: 'DSDT', 'A M I', Rev: 2, Len: 150903 -> DSDT.aml
+12:056  0:020        67414F00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+12:073  0:017    1. 6709E098: 'APIC', 'A M I', Rev: 3, Len: 244 -> APIC.aml
+12:091  0:017    2. 6709E190: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+12:108  0:017    3. 6709E1D8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+12:126  0:017    4. 6709E278: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+12:143  0:017    5. 6709E2B8: 'SSDT', 'SataTabl', Rev: 1, Len: 931 -> SSDT-0-SataTabl.aml
+12:164  0:020    6. 6709E660: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630 -> SSDT-1-SaSsdt.aml
+12:181  0:017    7. 670A17B8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416 -> SSDT-2-PegSsdt.aml
+12:203  0:021    8. 670A3C80: 'HPET', 'KBL', Rev: 1, Len: 56 -> HPET.aml
+12:220  0:017    9. 670A3CB8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2605 -> SSDT-3-xh_kbl_s.aml
+12:237  0:017    10. 670A46E8: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+12:255  0:017    11. 670A4730: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-4-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+12:277  0:021        * 66E91098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1914  53 53 44 54 7A 07 00 00 02 F8 50 6D 52 65 66 00 Internal length = 1914 -> SSDT-x4_0-Cpu0Ist.aml
+12:294  0:017        * 65ED9018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x4_1-ApIst.aml
+12:312  0:017        * 65ED8018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x4_2-Cpu0Cst.aml
+12:329  0:017        * 65EDA798: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x4_3-ApCst.aml
+12:347  0:017        * 65EDA018: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x4_4-Cpu0Hwp.aml
+12:364  0:017        * 65EDAB98: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x4_5-ApHwp.aml
+12:381  0:017        * 65EDA118: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x4_6-HwpLvt.aml
+12:399  0:017  
+12:399  0:000    12. 670A5EE0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 1104 -> AAFT.aml
+12:421  0:021    13. 670A6330: 'LPIT', 'KBL', Rev: 1, Len: 148 -> LPIT.aml
+12:438  0:017    14. 670A63C8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-5-HdaDsp.aml
+12:463  0:025    15. 670A6510: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303 -> SSDT-6-TbtTypeC.aml
+12:489  0:025    16. 670A6A28: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+12:506  0:016    17. 670A6A60: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+12:528  0:022    18. 670A6AB8: 'DMAR', 'KBL', Rev: 1, Len: 168 -> DMAR.aml
+12:546  0:017    19. 670A6B60: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+12:563  0:017    20. 670A6B98: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+12:592  0:029    Tables in Rsdt: 21
+12:592  0:000    0. 67079180: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+12:617  0:025        (Dsdt: 67079208, Facs: 67414EC0)
+12:617  0:000        67079208: 'DSDT', 'A M I', Rev: 2, Len: 150903
+12:619  0:001        67414EC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+12:641  0:021    1. 6709E098: 'APIC', 'A M I', Rev: 3, Len: 244
+12:641  0:000    2. 6709E190: 'FPDT', 'A M I', Rev: 1, Len: 68
+12:641  0:000    3. 6709E1D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+12:641  0:000    4. 6709E278: 'MCFG', 'A M I', Rev: 1, Len: 60
+12:641  0:000    5. 6709E2B8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+12:641  0:000    6. 6709E660: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+12:641  0:000    7. 670A17B8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+12:641  0:000    8. 670A3C80: 'HPET', 'KBL', Rev: 1, Len: 56
+12:641  0:000    9. 670A3CB8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2605
+12:641  0:000    10. 670A46E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+12:641  0:000    11. 670A4730: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+12:641  0:000    12. 670A5EE0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 1104
+12:641  0:000    13. 670A6330: 'LPIT', 'KBL', Rev: 1, Len: 148
+12:641  0:000    14. 670A63C8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+12:641  0:000    15. 670A6510: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+12:641  0:000    16. 670A6A28: 'DBGP', '', Rev: 1, Len: 52
+12:641  0:000    17. 670A6A60: 'DBG2', '', Rev: 0, Len: 84
+12:641  0:000    18. 670A6AB8: 'DMAR', 'KBL', Rev: 1, Len: 168
+12:641  0:000    19. 670A6B60: 'BGRT', 'A M I', Rev: 1, Len: 56
+12:641  0:000    20. 670A6B98: 'WSMT', 'A M I', Rev: 1, Len: 40
+12:641  0:000  Found UEFI Acpi 1.0 RSDP at 67079000
+12:641  0:000  Printing ACPI tables from RSDP 67079000 ...
+12:641  0:000   67079000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:641  0:000    (Xsdt: 670790A8, Rsdt: 67079028)
+12:641  0:000    670790A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+12:641  0:000    67079028: 'RSDT', 'A M I', Rev: 1, Len: 120
+12:641  0:000    Tables in Xsdt: 21
+12:641  0:000    0. 6709DF80: 'FACP', 'A M I', Rev: 6, Len: 276
+12:641  0:000        (Dsdt: 67079208, Facs: 67414F00, XDsdt: 67079208, XFacs: 0)
+12:641  0:000        67079208: 'DSDT', 'A M I', Rev: 2, Len: 150903
+12:642  0:001        67414F00: 'FACS', Ver: 2, Len: 64
+12:642  0:000    1. 6709E098: 'APIC', 'A M I', Rev: 3, Len: 244
+12:642  0:000    2. 6709E190: 'FPDT', 'A M I', Rev: 1, Len: 68
+12:642  0:000    3. 6709E1D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+12:642  0:000    4. 6709E278: 'MCFG', 'A M I', Rev: 1, Len: 60
+12:642  0:000    5. 6709E2B8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+12:642  0:000    6. 6709E660: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+12:642  0:000    7. 670A17B8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+12:642  0:000    8. 670A3C80: 'HPET', 'KBL', Rev: 1, Len: 56
+12:642  0:000    9. 670A3CB8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2605
+12:642  0:000    10. 670A46E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+12:642  0:000    11. 670A4730: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+12:642  0:000    12. 670A5EE0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 1104
+12:642  0:000    13. 670A6330: 'LPIT', 'KBL', Rev: 1, Len: 148
+12:642  0:000    14. 670A63C8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+12:642  0:000    15. 670A6510: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+12:642  0:000    16. 670A6A28: 'DBGP', '', Rev: 1, Len: 52
+12:642  0:000    17. 670A6A60: 'DBG2', '', Rev: 0, Len: 84
+12:642  0:000    18. 670A6AB8: 'DMAR', 'KBL', Rev: 1, Len: 168
+12:642  0:000    19. 670A6B60: 'BGRT', 'A M I', Rev: 1, Len: 56
+12:642  0:000    20. 670A6B98: 'WSMT', 'A M I', Rev: 1, Len: 40
+12:642  0:000    Tables in Rsdt: 21
+12:642  0:000    0. 67079180: 'FACP', 'A M I', Rev: 2, Len: 132
+12:642  0:000        (Dsdt: 67079208, Facs: 67414EC0)
+12:642  0:000        67079208: 'DSDT', 'A M I', Rev: 2, Len: 150903
+12:644  0:001        67414EC0: 'FACS', Ver: 0, Len: 64
+12:644  0:000    1. 6709E098: 'APIC', 'A M I', Rev: 3, Len: 244
+12:644  0:000    2. 6709E190: 'FPDT', 'A M I', Rev: 1, Len: 68
+12:644  0:000    3. 6709E1D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+12:644  0:000    4. 6709E278: 'MCFG', 'A M I', Rev: 1, Len: 60
+12:644  0:000    5. 6709E2B8: 'SSDT', 'SataTabl', Rev: 1, Len: 931
+12:644  0:000    6. 6709E660: 'SSDT', 'SaSsdt', Rev: 2, Len: 12630
+12:644  0:000    7. 670A17B8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9416
+12:644  0:000    8. 670A3C80: 'HPET', 'KBL', Rev: 1, Len: 56
+12:644  0:000    9. 670A3CB8: 'SSDT', 'xh_kbl_s', Rev: 2, Len: 2605
+12:644  0:000    10. 670A46E8: 'UEFI', 'A M I', Rev: 1, Len: 66
+12:644  0:000    11. 670A4730: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+12:644  0:000    12. 670A5EE0: 'AAFT', 'OEMAAFT', Rev: 1, Len: 1104
+12:644  0:000    13. 670A6330: 'LPIT', 'KBL', Rev: 1, Len: 148
+12:644  0:000    14. 670A63C8: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+12:644  0:000    15. 670A6510: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+12:644  0:000    16. 670A6A28: 'DBGP', '', Rev: 1, Len: 52
+12:644  0:000    17. 670A6A60: 'DBG2', '', Rev: 0, Len: 84
+12:644  0:000    18. 670A6AB8: 'DMAR', 'KBL', Rev: 1, Len: 168
+12:644  0:000    19. 670A6B60: 'BGRT', 'A M I', Rev: 1, Len: 56
+12:644  0:000    20. 670A6B98: 'WSMT', 'A M I', Rev: 1, Len: 40

@@ -1,0 +1,47 @@
+
+into device label PEGP parent_adr 0x00010000 remove_entry;
+into device label HDAU parent_adr 0x00010000 remove_entry;
+into device name_adr 0x00010000 insert
+begin
+Device (PEGP)\n
+{\n
+  Name (_ADR, Zero)\n
+  Name (_SUN, One)\n 
+  Method(_DSM, 4, NotSerialized)\n
+   {\n
+     If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+     Return (Package()\n
+     {\n
+
+        "@0,AAPL,boot-display", Buffer() { 0x01 },\n
+        "@1,AAPL,boot-display", Buffer() { 0x01 },\n
+        "@1,backlight-control", Buffer() { 0x01, 0x00, 0x00, 0x00 },\n
+        "@1,built-in", Buffer() { 0x01 },\n
+        "@0,connector-type", Buffer() { 0x00, 0x08, 0x00, 0x00 },\n
+        "@1,connector-type", Buffer() { 0x00, 0x04, 0x00, 0x00 },\n
+        "@2,connector-type", Buffer() { 0x00, 0x04, 0x00, 0x00 },\n
+        "@3,connector-type", Buffer() { 0x00, 0x04, 0x00, 0x00 },\n
+        "@4,connector-type", Buffer() { 0x00, 0x04, 0x00, 0x00 },\n
+        "@5,connector-type", Buffer() { 0x00, 0x04, 0x00, 0x00 },\n
+        "@1,pwm-info", Buffer (0x14) { 0x01, 0x14, 0x00, 0x64, 0xA8, 0x61, 0x00, 0x00, 0x1E, 0x02, 0x00, 0x00, 0x2C, 0x00, 0x00, 0x00, 0x00, 0x04, 0x00, 0x00 }, \n
+        "hda-gfx", Buffer() { "onboard-1" }\n
+      })\n
+   }\n
+}\n
+Device (HDAU)\n
+{\n
+  Name (_ADR, One)\n 
+  Method(_DSM, 4, NotSerialized)\n
+   {\n
+     If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
+     Return (Package()\n
+     {\n
+       "AAPL,slot-name", Buffer () {"HDMI"},\n 
+       "device_type", Buffer () {"Audio"},\n 
+       "name", Buffer () {"NVIDIA - High Definition Audio Controller"},\n
+       "model", Buffer () {"NVIDIA - High Definition Audio Controller"},\n
+       "hda-gfx", Buffer() { "onboard-1" }\n
+      })\n
+   }\n
+}\n
+end;

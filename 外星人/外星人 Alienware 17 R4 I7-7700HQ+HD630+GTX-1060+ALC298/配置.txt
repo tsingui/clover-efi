@@ -1,0 +1,7 @@
+处理器 I7-7700HQ
+芯片组 Intel 100系
+内存 2x8g 
+显卡 GeForce GTX 1060M / Intel(R) HD Graphics 630
+有线网络 Killer E2500
+无线网络 DW1560
+声音适配器 Realtek ALC298

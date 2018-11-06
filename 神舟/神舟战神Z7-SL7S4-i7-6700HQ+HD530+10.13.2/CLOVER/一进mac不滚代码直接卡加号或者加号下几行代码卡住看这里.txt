@@ -1,0 +1,1 @@
+将drivers64UEFI下的OsxAptioFixDrv-64.efi备份后删除，再将OsxAptioFix2Drv-64.efi后缀去掉即可，无效则再试另外三个带后缀的efi文件，如法炮制，改后缀名后启动该efi必须备份后删掉之前无效的。

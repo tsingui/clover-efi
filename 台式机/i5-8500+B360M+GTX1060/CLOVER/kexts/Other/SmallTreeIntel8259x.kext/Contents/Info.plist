@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13E28</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SmallTreeIntel8259x</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.SmallTree.driver.SmallTreeIntel8259x</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SmallTreeIntel8259x</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3.1.1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>6A317</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>13F26</string>
+	<key>DTSDKName</key>
+	<string>macosx10.9</string>
+	<key>DTXcode</key>
+	<string>0600</string>
+	<key>DTXcodeBuild</key>
+	<string>6A317</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Intel8259x</key>
+		<dict>
+			<key>Boot Configuration</key>
+			<dict>
+				<key>Receive Side Coalescing Enabled</key>
+				<true/>
+				<key>RxRingSize</key>
+				<integer>512</integer>
+				<key>Transport Segmentation Offload Enabled</key>
+				<true/>
+				<key>TxRingSize</key>
+				<integer>1024</integer>
+			</dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.SmallTree.driver.SmallTreeIntel8259x</string>
+			<key>IOClass</key>
+			<string>SmallTreeIntel8259x</string>
+			<key>IOPCIPauseCompatible</key>
+			<true/>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x10c68086 0x10c78086 0x10c88086 0x10ec8086 0x10d88086 0x10fb8086 0x10f18086 0x151c8086 0x150b8086 0x15288086 0x10fc8086 0x15608086</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOResourceMatch</key>
+			<string>IOBSD</string>
+			<key>IOUserClientClass</key>
+			<string>SmallTreeUserClient</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.8</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.6</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>7.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Network-Root</string>
+</dict>
+</plist>
