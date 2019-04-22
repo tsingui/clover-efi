@@ -1,0 +1,11 @@
+处理器 The 4th generation Intel? Core? i5-4210M
+操作系统 DOS
+芯片组 Intel? HM87
+内存 4G+2G
+显示器 14.1″ Full HD (1920×1080), Anti-glare
+显卡 GeForce GTX 850M / Intel(R) HD Graphics 4600
+有线网络 Killer? E2200
+无线网络 Realtek RTL8723AE
+声音适配器 Realtek ALC269
+蓝牙 Bluetooth v4.0
+DMI BIOS 版本 E1492IMS.50U

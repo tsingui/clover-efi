@@ -1,0 +1,3978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>14A368</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>3.5.0, Copyright Apple Inc. 1999-2014</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.USBStorageDeviceSpecifics</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>USBStorageDeviceSpecifics</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.5.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3.5.0</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>6A280m</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>14A359</string>
+	<key>DTSDKName</key>
+	<string>macosx10.10internal</string>
+	<key>DTXcode</key>
+	<string>0600</string>
+	<key>DTXcodeBuild</key>
+	<string>6A280m</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>AppleADSTechnologies_55349</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>55349</integer>
+			<key>idVendor</key>
+			<integer>1761</integer>
+		</dict>
+		<key>AppleAddLogix_25092</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>25092</integer>
+			<key>idVendor</key>
+			<integer>1037</integer>
+		</dict>
+		<key>AppleAgateQUSBHardDrive</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>544</integer>
+			<key>idVendor</key>
+			<integer>2060</integer>
+		</dict>
+		<key>AppleAlcor21In1Reader_1423_25442</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Use Standard USB Reset</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>25442</integer>
+			<key>idVendor</key>
+			<integer>1423</integer>
+		</dict>
+		<key>AppleAliM5637_1026_22055</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Disable</key>
+			<string>true</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>256</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>256</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>22055</integer>
+			<key>idVendor</key>
+			<integer>1026</integer>
+		</dict>
+		<key>AppleAliM5637_1026_22071</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Disable</key>
+			<string>true</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>256</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>256</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>22071</integer>
+			<key>idVendor</key>
+			<integer>1026</integer>
+		</dict>
+		<key>AppleAmazonKindle_6473_2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>2</integer>
+			<key>idVendor</key>
+			<integer>6473</integer>
+		</dict>
+		<key>AppleAmazonKindle_6473_4</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4</integer>
+			<key>idVendor</key>
+			<integer>6473</integer>
+		</dict>
+		<key>AppleApacerFlashDrive</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>65535</integer>
+			<key>idVendor</key>
+			<integer>65535</integer>
+		</dict>
+		<key>AppleApricornUSBCFReader</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>256</integer>
+			<key>idVendor</key>
+			<integer>2436</integer>
+		</dict>
+		<key>AppleBelkin_F5U249</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>256</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>256</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>585</integer>
+			<key>idVendor</key>
+			<integer>1293</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_32772_inf1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>1</integer>
+			<key>idProduct</key>
+			<integer>32772</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_32772_inf2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>32772</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_32774_inf0</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32774</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_32775_inf1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>1</integer>
+			<key>idProduct</key>
+			<integer>32775</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_32775_inf2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>32775</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_4_inf1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>1</integer>
+			<key>idProduct</key>
+			<integer>4</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_4_inf2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>4</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_6_inf0</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>6</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_7_inf1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>1</integer>
+			<key>idProduct</key>
+			<integer>7</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBlackBerry_4042_7_inf2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>7</integer>
+			<key>idVendor</key>
+			<integer>4042</integer>
+		</dict>
+		<key>AppleBrother_MFC480CN_1273_475</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>3</integer>
+			<key>idProduct</key>
+			<integer>475</integer>
+			<key>idVendor</key>
+			<integer>1273</integer>
+		</dict>
+		<key>AppleBrother_MFC5840CN_1273_366</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>3</integer>
+			<key>idProduct</key>
+			<integer>366</integer>
+			<key>idVendor</key>
+			<integer>1273</integer>
+		</dict>
+		<key>AppleBuffalo_USB_HS_1041_149</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>149</integer>
+			<key>idVendor</key>
+			<integer>1041</integer>
+		</dict>
+		<key>AppleBuffalo_USB_HS_1041_42</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>42</integer>
+			<key>idVendor</key>
+			<integer>1041</integer>
+		</dict>
+		<key>AppleCBM_516_24613</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>24613</integer>
+			<key>idVendor</key>
+			<integer>516</integer>
+		</dict>
+		<key>AppleCBM_516_24614</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>24614</integer>
+			<key>idVendor</key>
+			<integer>516</integer>
+		</dict>
+		<key>AppleCanon_IVIS_HF11_1193_12749</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>12749</integer>
+			<key>idVendor</key>
+			<integer>1193</integer>
+		</dict>
+		<key>AppleCanon_MP600_1193_5912</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>5912</integer>
+			<key>idVendor</key>
+			<integer>1193</integer>
+		</dict>
+		<key>AppleCanon_MP600_1193_5913</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>5913</integer>
+			<key>idVendor</key>
+			<integer>1193</integer>
+		</dict>
+		<key>AppleCanon_MP600_1193_5914</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>5914</integer>
+			<key>idVendor</key>
+			<integer>1193</integer>
+		</dict>
+		<key>AppleCanon_MP970_1193_5926</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>2</integer>
+			<key>idProduct</key>
+			<integer>5926</integer>
+			<key>idVendor</key>
+			<integer>1193</integer>
+		</dict>
+		<key>AppleCanon_VIXIA_HG20_1193_12743</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>12743</integer>
+			<key>idVendor</key>
+			<integer>1193</integer>
+		</dict>
+		<key>AppleCasioExlimEx_S500_4099</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4099</integer>
+			<key>idVendor</key>
+			<integer>1999</integer>
+		</dict>
+		<key>AppleChieftec_USB4500_17664</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>No Disk Geometry</key>
+			<true/>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>17664</integer>
+			<key>idVendor</key>
+			<integer>60678</integer>
+		</dict>
+		<key>AppleCorsair_Voyager_6940_6659</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Require Restart Eject</key>
+				<true/>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>6659</integer>
+			<key>idVendor</key>
+			<integer>6940</integer>
+		</dict>
+		<key>AppleDazzleUSB20MediaReader</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4610</integer>
+			<key>idVendor</key>
+			<integer>2000</integer>
+		</dict>
+		<key>AppleDazzleUSB20MediaReader2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>3546</integer>
+		</dict>
+		<key>AppleDigitalConcepts_CR_70R</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>256</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>256</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>25442</integer>
+			<key>idVendor</key>
+			<integer>1423</integer>
+		</dict>
+		<key>AppleDrobo</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>256</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>256</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>0</integer>
+			<key>idVendor</key>
+			<integer>6585</integer>
+		</dict>
+		<key>AppleDrobo_6585_19728</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>256</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>256</integer>
+			</dict>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset Recovery Time</key>
+				<integer>1000</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>19728</integer>
+			<key>idVendor</key>
+			<integer>6585</integer>
+		</dict>
+		<key>AppleExcelBioFlash</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>3931</integer>
+		</dict>
+		<key>AppleGB_PicoR_4089_4099</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4099</integer>
+			<key>idVendor</key>
+			<integer>4089</integer>
+		</dict>
+		<key>AppleGP2XCaanoo_1317_42149</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>42149</integer>
+			<key>idVendor</key>
+			<integer>1317</integer>
+		</dict>
+		<key>AppleGarminNuvi350NA</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>8668</integer>
+			<key>idVendor</key>
+			<integer>2334</integer>
+		</dict>
+		<key>AppleGenericCFCardReader_25446</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>25446</integer>
+			<key>idVendor</key>
+			<integer>1423</integer>
+		</dict>
+		<key>AppleGenericFlashDrive_1452_33794</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>IOMaximumByteCountRead</key>
+				<integer>65536</integer>
+				<key>IOMaximumByteCountWrite</key>
+				<integer>65536</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>33794</integer>
+			<key>idVendor</key>
+			<integer>1452</integer>
+		</dict>
+		<key>AppleGenericFlashDrive_2385_5635</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>IOMaximumByteCountRead</key>
+				<integer>65536</integer>
+				<key>IOMaximumByteCountWrite</key>
+				<integer>65536</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>5635</integer>
+			<key>idVendor</key>
+			<integer>2385</integer>
+		</dict>
+		<key>AppleGenericFlashDrive_5118_6656</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Disable</key>
+			<string>true</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>IOMaximumByteCountRead</key>
+				<integer>65536</integer>
+				<key>IOMaximumByteCountWrite</key>
+				<integer>65536</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>6656</integer>
+			<key>idVendor</key>
+			<integer>5118</integer>
+		</dict>
+		<key>AppleGenericFlashDrive_5118_7680</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>IOMaximumByteCountRead</key>
+				<integer>65536</integer>
+				<key>IOMaximumByteCountWrite</key>
+				<integer>65536</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>7680</integer>
+			<key>idVendor</key>
+			<integer>5118</integer>
+		</dict>
+		<key>AppleGenericInitioIHDD_5117_1344</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1344</integer>
+			<key>idVendor</key>
+			<integer>5117</integer>
+		</dict>
+		<key>AppleGeneric_Device_1452_32774</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4617</integer>
+			<key>idVendor</key>
+			<integer>1452</integer>
+		</dict>
+		<key>AppleHama_CompactFlash_8197</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>8197</integer>
+			<key>idVendor</key>
+			<integer>3546</integer>
+		</dict>
+		<key>AppleHumanwareVictorReaderStream_7281_49153</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>64</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>64</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>49153</integer>
+			<key>idVendor</key>
+			<integer>7281</integer>
+		</dict>
+		<key>AppleIODATAUS2-CFRW</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>809</integer>
+			<key>idVendor</key>
+			<integer>1211</integer>
+		</dict>
+		<key>AppleIODATAUS2-MSRW</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>812</integer>
+			<key>idVendor</key>
+			<integer>1211</integer>
+		</dict>
+		<key>AppleIODATAUS2-SMRW</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>810</integer>
+			<key>idVendor</key>
+			<integer>1211</integer>
+		</dict>
+		<key>AppleIOmega_EGo_USB30</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Suspend On Reboot</key>
+				<true/>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>bInterfaceProtocol</key>
+			<integer>80</integer>
+			<key>idProduct</key>
+			<integer>1392</integer>
+			<key>idVendor</key>
+			<integer>1435</integer>
+		</dict>
+		<key>AppleIPodShuffle_1452_4865</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4865</integer>
+			<key>idVendor</key>
+			<integer>1452</integer>
+		</dict>
+		<key>AppleIRiverIFP799</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4359</integer>
+			<key>idVendor</key>
+			<integer>16642</integer>
+		</dict>
+		<key>AppleImationUSBSuperDiskDriver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Preferred Protocol</key>
+				<integer>1</integer>
+				<key>Preferred Subclass</key>
+				<integer>5</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>1254</integer>
+		</dict>
+		<key>AppleIomegaHDD_885</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>885</integer>
+			<key>idVendor</key>
+			<integer>1435</integer>
+		</dict>
+		<key>AppleIomegaHDD_886</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>886</integer>
+			<key>idVendor</key>
+			<integer>1435</integer>
+		</dict>
+		<key>AppleIomegaMDHD500_UE</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>631</integer>
+			<key>idVendor</key>
+			<integer>1435</integer>
+		</dict>
+		<key>AppleIomegaMiniHD</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>122</integer>
+			<key>idVendor</key>
+			<integer>1435</integer>
+		</dict>
+		<key>AppleIomegaUSBZip750</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>55</integer>
+			<key>idVendor</key>
+			<integer>1435</integer>
+		</dict>
+		<key>AppleIomegaZip100</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Max Logical Unit Number</key>
+				<integer>0</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>1435</integer>
+		</dict>
+		<key>AppleLacie8In1MediaReader</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>12896</integer>
+			<key>idVendor</key>
+			<integer>2796</integer>
+		</dict>
+		<key>AppleLacieBigDisk</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1057</integer>
+			<key>idVendor</key>
+			<integer>1439</integer>
+		</dict>
+		<key>AppleLacieBigDisk_1317</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Use Standard USB Reset</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1317</integer>
+			<key>idVendor</key>
+			<integer>1439</integer>
+		</dict>
+		<key>AppleLacieCBIHDD</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>42497</integer>
+			<key>idVendor</key>
+			<integer>1439</integer>
+		</dict>
+		<key>AppleLacie_FastKey_USB30</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBAttachedSCSI</string>
+			<key>IOClass</key>
+			<string>IOUSBAttachedSCSI</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Attached SCSI Characteristics</key>
+			<dict>
+				<key>Maximum Queue Depth</key>
+				<integer>2</integer>
+				<key>Reset On Resume</key>
+				<true/>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>bInterfaceProtocol</key>
+			<integer>98</integer>
+			<key>idProduct</key>
+			<integer>4166</integer>
+			<key>idVendor</key>
+			<integer>1439</integer>
+		</dict>
+		<key>AppleLexarRW018</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>45080</integer>
+			<key>idVendor</key>
+			<integer>1500</integer>
+		</dict>
+		<key>AppleLexarRW018RevD</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>45453</integer>
+			<key>idVendor</key>
+			<integer>1500</integer>
+		</dict>
+		<key>AppleMSystemDiskOnKey</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>16</integer>
+			<key>idVendor</key>
+			<integer>2284</integer>
+		</dict>
+		<key>AppleMacAllyPHR_100AC</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>26672</integer>
+			<key>idVendor</key>
+			<integer>992</integer>
+		</dict>
+		<key>AppleMagellanMaestro4250_65535</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>65535</integer>
+			<key>idVendor</key>
+			<integer>1118</integer>
+		</dict>
+		<key>AppleMelcoDUB-P20G</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1794</integer>
+			<key>idVendor</key>
+			<integer>1507</integer>
+		</dict>
+		<key>AppleMelcoUSB2-IDE-Bridge</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>43</integer>
+			<key>idVendor</key>
+			<integer>1041</integer>
+		</dict>
+		<key>AppleMelcoUSB2-SCSI-Bridge</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Known CSW Tag Issues</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>23</integer>
+			<key>idVendor</key>
+			<integer>1041</integer>
+		</dict>
+		<key>AppleMemorex52MAX</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Max Logical Unit Number</key>
+				<integer>0</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>25224</integer>
+			<key>idVendor</key>
+			<integer>18517</integer>
+		</dict>
+		<key>AppleMicrotechMiiZip100Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Preferred Protocol</key>
+				<integer>1</integer>
+				<key>Preferred Subclass</key>
+				<integer>5</integer>
+			</dict>
+			<key>bInterfaceProtocol</key>
+			<integer>0</integer>
+			<key>bInterfaceSubClass</key>
+			<integer>0</integer>
+			<key>idVendor</key>
+			<integer>1435</integer>
+		</dict>
+		<key>AppleMotorola_Razr2_v8_8888_25638</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>25638</integer>
+			<key>idVendor</key>
+			<integer>8888</integer>
+		</dict>
+		<key>AppleNECClick40</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Max Logical Unit Number</key>
+				<integer>0</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>44</integer>
+			<key>idVendor</key>
+			<integer>1033</integer>
+		</dict>
+		<key>AppleNECFloppyDrive</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOMediaIcon</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
+				<key>IOBundleResourceFile</key>
+				<string>Floppy.icns</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>64</integer>
+			<key>idVendor</key>
+			<integer>1033</integer>
+		</dict>
+		<key>AppleOlympusMOS3390</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>768</integer>
+			<key>idVendor</key>
+			<integer>1972</integer>
+		</dict>
+		<key>ApplePQIU510_66</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Max Logical Unit Number</key>
+				<integer>0</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>66</integer>
+			<key>idVendor</key>
+			<integer>13624</integer>
+		</dict>
+		<key>ApplePalmLifeDrive_221</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>221</integer>
+			<key>idVendor</key>
+			<integer>2096</integer>
+		</dict>
+		<key>ApplePanasonicP2CardReader_1242_10241</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Use Standard USB Reset</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>10241</integer>
+			<key>idVendor</key>
+			<integer>1242</integer>
+		</dict>
+		<key>ApplePanasonicSDCardReader</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>6912</integer>
+			<key>idVendor</key>
+			<integer>1242</integer>
+		</dict>
+		<key>ApplePanasonicUSBSDCameraDriver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Preferred Protocol</key>
+				<integer>1</integer>
+				<key>Preferred Subclass</key>
+				<integer>5</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>2305</integer>
+			<key>idVendor</key>
+			<integer>1242</integer>
+		</dict>
+		<key>ApplePanasonicUSBSuperDiskDriver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Preferred Protocol</key>
+				<integer>1</integer>
+				<key>Preferred Subclass</key>
+				<integer>5</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>769</integer>
+			<key>idVendor</key>
+			<integer>1211</integer>
+		</dict>
+		<key>ApplePioneer_Inno_GEX_INNO1_315</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Eject Requires START_STOP_UNIT</key>
+				<true/>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>315</integer>
+			<key>idVendor</key>
+			<integer>2276</integer>
+		</dict>
+		<key>ApplePlasmonUDO2_2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>16</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>16</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>2</integer>
+			<key>idVendor</key>
+			<integer>6675</integer>
+		</dict>
+		<key>AppleRiData_1539</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1539</integer>
+			<key>idVendor</key>
+			<integer>2855</integer>
+		</dict>
+		<key>AppleSamsungIts80GB_769</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>769</integer>
+			<key>idVendor</key>
+			<integer>1256</integer>
+		</dict>
+		<key>AppleSamsungYP_Z5_20545</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>20545</integer>
+			<key>idVendor</key>
+			<integer>1256</integer>
+		</dict>
+		<key>AppleSanDiskCruiser20816</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>20816</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanDiskCruiser20817</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>20817</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanDiskCruiser21510</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Max Logical Unit Number</key>
+				<integer>0</integer>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>21510</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanDiskCruiser21512</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Max Logical Unit Number</key>
+				<integer>0</integer>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>21512</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanDiskCruiser21514</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>21514</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanDiskCruiser28929</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+			</dict>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>28929</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanDiskImageMate</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>2</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanDiskImageMate_6_in_1_Reader_1569</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1569</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanDisk_12_In_1_Reader_35136</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>35136</integer>
+			<key>idVendor</key>
+			<integer>1921</integer>
+		</dict>
+		<key>AppleSanyoICRecorderS290RM_267</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>267</integer>
+			<key>idVendor</key>
+			<integer>1140</integer>
+		</dict>
+		<key>AppleSeagate_98D868_560</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Use Standard USB Reset</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1282</integer>
+			<key>idVendor</key>
+			<integer>3010</integer>
+		</dict>
+		<key>AppleSierraWireless_4505_4095</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4095</integer>
+			<key>idVendor</key>
+			<integer>4505</integer>
+		</dict>
+		<key>AppleSmartDriveHD3_U2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1794</integer>
+			<key>idVendor</key>
+			<integer>1507</integer>
+		</dict>
+		<key>AppleSonyDSCDriver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOMediaIcon</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
+				<key>IOBundleResourceFile</key>
+				<string>MemoryStick.icns</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Preferred Protocol</key>
+				<integer>1</integer>
+				<key>Preferred Subclass</key>
+				<integer>5</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>16</integer>
+			<key>idVendor</key>
+			<integer>1356</integer>
+		</dict>
+		<key>AppleSonyFloppy_MPF82E_ZL_1356_44</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageUFISubclass</string>
+			<key>IOMediaIcon</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
+				<key>IOBundleResourceFile</key>
+				<string>Floppy.icns</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>44</integer>
+			<key>idVendor</key>
+			<integer>1356</integer>
+		</dict>
+		<key>AppleSonyGPS_CS1KA_7424</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Max Logical Unit Number</key>
+				<integer>0</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>664</integer>
+			<key>idVendor</key>
+			<integer>1356</integer>
+		</dict>
+		<key>AppleSonyMSACUS1Reader</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOMediaIcon</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
+				<key>IOBundleResourceFile</key>
+				<string>MemoryStick.icns</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>45</integer>
+			<key>idVendor</key>
+			<integer>1356</integer>
+		</dict>
+		<key>AppleSonyMSGCUS10Reader</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOMediaIcon</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
+				<key>IOBundleResourceFile</key>
+				<string>MemoryStick.icns</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>55</integer>
+			<key>idVendor</key>
+			<integer>1356</integer>
+		</dict>
+		<key>AppleSonyNetworkWalkmanMS7</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOMediaIcon</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
+				<key>IOBundleResourceFile</key>
+				<string>MemoryStick.icns</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+			</dict>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Preferred Protocol</key>
+				<integer>1</integer>
+				<key>Preferred Subclass</key>
+				<integer>5</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>37</integer>
+			<key>idVendor</key>
+			<integer>1356</integer>
+		</dict>
+		<key>AppleSonyNetworkWalkmanMS9</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOMediaIcon</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
+				<key>IOBundleResourceFile</key>
+				<string>MemoryStick.icns</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Inquiry Length</key>
+				<integer>56</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>70</integer>
+			<key>idVendor</key>
+			<integer>1356</integer>
+		</dict>
+		<key>AppleSonyPC110</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOMediaIcon</key>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.iokit.IOSCSIArchitectureModelFamily</string>
+				<key>IOBundleResourceFile</key>
+				<string>MemoryStick.icns</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Preferred Protocol</key>
+				<integer>1</integer>
+				<key>Preferred Subclass</key>
+				<integer>5</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>46</integer>
+			<key>idVendor</key>
+			<integer>1356</integer>
+		</dict>
+		<key>AppleSonySpressaCRX100EX</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Preferred Protocol</key>
+				<integer>1</integer>
+				<key>Preferred Subclass</key>
+				<integer>2</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>257</integer>
+			<key>idVendor</key>
+			<integer>1254</integer>
+		</dict>
+		<key>AppleStorixAxis</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Max Logical Unit Number</key>
+				<integer>0</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4097</integer>
+			<key>idVendor</key>
+			<integer>2314</integer>
+		</dict>
+		<key>AppleTDK_USB_DVD_R_768_1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>32</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>32</integer>
+				<key>IOMaximumByteCountRead</key>
+				<integer>65536</integer>
+				<key>IOMaximumByteCountWrite</key>
+				<integer>65536</integer>
+				<key>IOMaximumSegmentCountRead</key>
+				<integer>16</integer>
+				<key>IOMaximumSegmentCountWrite</key>
+				<integer>16</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>768</integer>
+			<key>idVendor</key>
+			<integer>3519</integer>
+		</dict>
+		<key>AppleTDK_USB_DVD_R_768_2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>32</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>32</integer>
+				<key>IOMaximumByteCountRead</key>
+				<integer>65536</integer>
+				<key>IOMaximumByteCountWrite</key>
+				<integer>65536</integer>
+				<key>IOMaximumSegmentCountRead</key>
+				<integer>16</integer>
+				<key>IOMaximumSegmentCountWrite</key>
+				<integer>16</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>2</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>768</integer>
+			<key>idVendor</key>
+			<integer>3519</integer>
+		</dict>
+		<key>AppleTascam2488NEO_1604_32795</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32795</integer>
+			<key>idVendor</key>
+			<integer>1604</integer>
+		</dict>
+		<key>AppleTascam2488_1604_32779</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32779</integer>
+			<key>idVendor</key>
+			<integer>1604</integer>
+		</dict>
+		<key>AppleTascam2488mkII_1604_32790</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32790</integer>
+			<key>idVendor</key>
+			<integer>1604</integer>
+		</dict>
+		<key>AppleTascamDP01_1604_32781</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32781</integer>
+			<key>idVendor</key>
+			<integer>1604</integer>
+		</dict>
+		<key>AppleTascamDP02_1604_32792</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32792</integer>
+			<key>idVendor</key>
+			<integer>1604</integer>
+		</dict>
+		<key>AppleTascamDV_RA1000HD_1604_32789</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32789</integer>
+			<key>idVendor</key>
+			<integer>1604</integer>
+		</dict>
+		<key>AppleTascamDV_RA1000_1604_32780</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>Force Write Cache Enable</key>
+			<true/>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32780</integer>
+			<key>idVendor</key>
+			<integer>1604</integer>
+		</dict>
+		<key>AppleTomTomGo910_1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Inquiry Length</key>
+				<integer>36</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>5008</integer>
+		</dict>
+		<key>AppleVSTFloppyDrive</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Reset On Resume</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>0</integer>
+			<key>idVendor</key>
+			<integer>1604</integer>
+		</dict>
+		<key>AppleVerbatimPortableUSB30Drive</key>
+		<dict>
+			<key>Block Length In Bytes</key>
+			<integer>512</integer>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>558</integer>
+			<key>idVendor</key>
+			<integer>6309</integer>
+		</dict>
+		<key>AppleVosonic_VP3320</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>5744</integer>
+			<key>idVendor</key>
+			<integer>3453</integer>
+		</dict>
+		<key>AppleWesternDigital_MyBook_4184_4355</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Autonomous Spin Down</key>
+				<true/>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4355</integer>
+			<key>idVendor</key>
+			<integer>4184</integer>
+		</dict>
+		<key>Apple_Duka_2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>4131</integer>
+			<key>idVendor</key>
+			<integer>17798</integer>
+		</dict>
+		<key>Apple_Procaster_PVR_6300C</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>26672</integer>
+			<key>idVendor</key>
+			<integer>1204</integer>
+		</dict>
+		<key>Optelec_Alva_BC640</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>USB Mass Storage Characteristics</key>
+			<dict>
+				<key>Do Not Operate</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>1</integer>
+			<key>bcdDevice</key>
+			<integer>1</integer>
+			<key>idProduct</key>
+			<integer>1600</integer>
+			<key>idVendor</key>
+			<integer>1944</integer>
+		</dict>
+		<key>Panasonic_SDXC_Reader_1242_6914</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>6914</integer>
+			<key>idVendor</key>
+			<integer>1242</integer>
+		</dict>
+		<key>StarReader_CS8819A2_110</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>39200</integer>
+			<key>idVendor</key>
+			<integer>1231</integer>
+		</dict>
+		<key>StarTech_InfoSafe_9016</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>IOMaximumBlockCountRead</key>
+				<integer>128</integer>
+				<key>IOMaximumBlockCountWrite</key>
+				<integer>128</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>9016</integer>
+			<key>idVendor</key>
+			<integer>5421</integer>
+		</dict>
+		<key>SwiMP3_32768</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOUSBMassStorageClass</string>
+			<key>IOClass</key>
+			<string>IOUSBMassStorageClass</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>Physical Interconnect</key>
+			<string>USB</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+			<key>SCSI Device Characteristics</key>
+			<dict>
+				<key>Manual Eject</key>
+				<string>true</string>
+			</dict>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>idProduct</key>
+			<integer>32768</integer>
+			<key>idVendor</key>
+			<integer>1647</integer>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.kpi.bsd</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>9.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Local-Root</string>
+</dict>
+</plist>

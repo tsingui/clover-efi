@@ -1,0 +1,137 @@
+5:594  3:043  Found BIOS RSDP at F0000
+5:594  0:000  Printing ACPI tables from RSDP F0000 ...
+5:594  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:594  0:000    (Xsdt: C9581090, Rsdt: C9581028)
+5:594  0:000    C9581090: 'XSDT', 'PARADISE', Rev: 1, Len: 156
+5:594  0:000    C9581028: 'RSDT', 'PARADISE', Rev: 1, Len: 96
+5:594  0:000    Tables in Xsdt: 15
+5:594  0:000    0. C9590678: 'FACP', 'PARADISE', Rev: 5, Len: 268
+5:594  0:000        (Dsdt: C95811C0, Facs: C99EAF80, XDsdt: C95811C0, XFacs: 0)
+5:594  0:000        C95811C0: 'DSDT', 'CSB00000', Rev: 2, Len: 62646
+5:595  0:001        C99EAF80: 'FACS', Ver: 2, Len: 64
+5:595  0:000    1. C9590788: 'APIC', 'PARADISE', Rev: 3, Len: 114
+5:595  0:000    2. C9590800: 'FPDT', 'PARADISE', Rev: 1, Len: 68
+5:595  0:000    3. C9590848: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+5:595  0:000    4. C9590A70: 'SSDT', 'zpodd', Rev: 1, Len: 399
+5:595  0:000    5. C9590C00: 'SLIC', 'PARADISE', Rev: 1, Len: 374
+5:595  0:000    6. C9590D78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:595  0:000    7. C95912B8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:595  0:000    8. C9591D90: 'MCFG', 'PARADISE', Rev: 1, Len: 60
+5:595  0:000    9. C9591DD0: 'HPET', 'PARADISE', Rev: 1, Len: 56
+5:595  0:000    10. C9591E08: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:595  0:000    11. C9592120: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+5:595  0:000    12. C95952E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+5:595  0:000    13. C95968C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+5:595  0:000    14. C9598358: 'BGRT', 'PARADISE', Rev: 1, Len: 56
+5:595  0:000    Tables in Rsdt: 15
+5:595  0:000    0. C9581138: 'FACP', 'PARADISE', Rev: 2, Len: 132
+5:595  0:000        (Dsdt: C95811C0, Facs: C99EAF40)
+5:595  0:000        C95811C0: 'DSDT', 'CSB00000', Rev: 2, Len: 62646
+5:596  0:001        C99EAF40: 'FACS', Ver: 0, Len: 64
+5:596  0:000    1. C9590788: 'APIC', 'PARADISE', Rev: 3, Len: 114
+5:596  0:000    2. C9590800: 'FPDT', 'PARADISE', Rev: 1, Len: 68
+5:596  0:000    3. C9590848: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+5:596  0:000    4. C9590A70: 'SSDT', 'zpodd', Rev: 1, Len: 399
+5:596  0:000    5. C9590C00: 'SLIC', 'PARADISE', Rev: 1, Len: 374
+5:596  0:000    6. C9590D78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:596  0:000    7. C95912B8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:596  0:000    8. C9591D90: 'MCFG', 'PARADISE', Rev: 1, Len: 60
+5:596  0:000    9. C9591DD0: 'HPET', 'PARADISE', Rev: 1, Len: 56
+5:596  0:000    10. C9591E08: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:596  0:000    11. C9592120: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+5:596  0:000    12. C95952E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+5:596  0:000    13. C95968C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+5:596  0:000    14. C9598358: 'BGRT', 'PARADISE', Rev: 1, Len: 56
+5:596  0:000  Found UEFI Acpi 2.0 RSDP at C9581000
+5:596  0:000  Saving ACPI tables from RSDP C9581000 to EFI\CLOVER\ACPI\origin ...
+5:596  0:000   C9581000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:693  0:096    (Xsdt: C9581090, Rsdt: C9581028)
+5:693  0:000    C9581090: 'XSDT', 'PARADISE', Rev: 1, Len: 156 -> XSDT.aml
+5:703  0:010    C9581028: 'RSDT', 'PARADISE', Rev: 1, Len: 96 -> RSDT.aml
+5:706  0:002    Tables in Xsdt: 15
+5:706  0:000    0. C9590678: 'FACP', 'PARADISE', Rev: 5, Len: 268 -> FACP.aml
+5:709  0:002        (Dsdt: C95811C0, Facs: C99EAF80, XDsdt: C95811C0, XFacs: 0)
+5:709  0:000        C95811C0: 'DSDT', 'CSB00000', Rev: 2, Len: 62646 -> DSDT.aml
+5:739  0:030        C99EAF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:745  0:005    1. C9590788: 'APIC', 'PARADISE', Rev: 3, Len: 114 -> APIC.aml
+5:747  0:002    2. C9590800: 'FPDT', 'PARADISE', Rev: 1, Len: 68 -> FPDT.aml
+5:750  0:002    3. C9590848: 'SSDT', 'sensrhub', Rev: 1, Len: 552 -> SSDT-0-sensrhub.aml
+5:753  0:002    4. C9590A70: 'SSDT', 'zpodd', Rev: 1, Len: 399 -> SSDT-1-zpodd.aml
+5:755  0:002    5. C9590C00: 'SLIC', 'PARADISE', Rev: 1, Len: 374 -> SLIC.aml
+5:758  0:002    6. C9590D78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-2-Cpu0Ist.aml
+5:762  0:003    7. C95912B8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+5:762  0:000        * C729B598: '', '', Rev: 55, Len: 16777216  00 20 00 00 00 00 00 01 37 37 00 00 05 64 00 00       * C932F618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-4x-ApIst.aml
+5:766  0:003        * C932FC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-5x-Cpu0Cst.aml
+5:768  0:002        * C932ED98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-6x-ApCst.aml
+5:771  0:002   -> SSDT-3-CpuPm.aml
+5:774  0:002    8. C9591D90: 'MCFG', 'PARADISE', Rev: 1, Len: 60 -> MCFG.aml
+5:777  0:003    9. C9591DD0: 'HPET', 'PARADISE', Rev: 1, Len: 56 -> HPET.aml
+5:781  0:003    10. C9591E08: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-7-SataTabl.aml
+5:784  0:003    11. C9592120: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736 -> SSDT-8-SaSsdt .aml
+5:821  0:036    12. C95952E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5599 -> SSDT-9-SgPeg.aml
+5:823  0:002    13. C95968C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801 -> SSDT-10-OptTabl.aml
+5:826  0:002    14. C9598358: 'BGRT', 'PARADISE', Rev: 1, Len: 56 -> BGRT.aml
+5:830  0:003    Tables in Rsdt: 15
+5:830  0:000    0. C9581138: 'FACP', 'PARADISE', Rev: 2, Len: 132 -> RSDT-FACP.aml
+5:833  0:002        (Dsdt: C95811C0, Facs: C99EAF40)
+5:833  0:000        C95811C0: 'DSDT', 'CSB00000', Rev: 2, Len: 62646
+5:834  0:001        C99EAF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+5:836  0:002    1. C9590788: 'APIC', 'PARADISE', Rev: 3, Len: 114
+5:836  0:000    2. C9590800: 'FPDT', 'PARADISE', Rev: 1, Len: 68
+5:836  0:000    3. C9590848: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+5:836  0:000    4. C9590A70: 'SSDT', 'zpodd', Rev: 1, Len: 399
+5:836  0:000    5. C9590C00: 'SLIC', 'PARADISE', Rev: 1, Len: 374
+5:836  0:000    6. C9590D78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:836  0:000    7. C95912B8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:836  0:000    8. C9591D90: 'MCFG', 'PARADISE', Rev: 1, Len: 60
+5:836  0:000    9. C9591DD0: 'HPET', 'PARADISE', Rev: 1, Len: 56
+5:836  0:000    10. C9591E08: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:836  0:000    11. C9592120: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+5:836  0:000    12. C95952E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+5:836  0:000    13. C95968C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+5:836  0:000    14. C9598358: 'BGRT', 'PARADISE', Rev: 1, Len: 56
+5:836  0:000  Found UEFI Acpi 1.0 RSDP at C9581000
+5:836  0:000  Printing ACPI tables from RSDP C9581000 ...
+5:836  0:000   C9581000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:836  0:000    (Xsdt: C9581090, Rsdt: C9581028)
+5:836  0:000    C9581090: 'XSDT', 'PARADISE', Rev: 1, Len: 156
+5:836  0:000    C9581028: 'RSDT', 'PARADISE', Rev: 1, Len: 96
+5:836  0:000    Tables in Xsdt: 15
+5:836  0:000    0. C9590678: 'FACP', 'PARADISE', Rev: 5, Len: 268
+5:836  0:000        (Dsdt: C95811C0, Facs: C99EAF80, XDsdt: C95811C0, XFacs: 0)
+5:836  0:000        C95811C0: 'DSDT', 'CSB00000', Rev: 2, Len: 62646
+5:837  0:001        C99EAF80: 'FACS', Ver: 2, Len: 64
+5:837  0:000    1. C9590788: 'APIC', 'PARADISE', Rev: 3, Len: 114
+5:837  0:000    2. C9590800: 'FPDT', 'PARADISE', Rev: 1, Len: 68
+5:837  0:000    3. C9590848: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+5:837  0:000    4. C9590A70: 'SSDT', 'zpodd', Rev: 1, Len: 399
+5:837  0:000    5. C9590C00: 'SLIC', 'PARADISE', Rev: 1, Len: 374
+5:837  0:000    6. C9590D78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:837  0:000    7. C95912B8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:837  0:000    8. C9591D90: 'MCFG', 'PARADISE', Rev: 1, Len: 60
+5:837  0:000    9. C9591DD0: 'HPET', 'PARADISE', Rev: 1, Len: 56
+5:837  0:000    10. C9591E08: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:837  0:000    11. C9592120: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+5:837  0:000    12. C95952E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+5:837  0:000    13. C95968C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+5:837  0:000    14. C9598358: 'BGRT', 'PARADISE', Rev: 1, Len: 56
+5:837  0:000    Tables in Rsdt: 15
+5:837  0:000    0. C9581138: 'FACP', 'PARADISE', Rev: 2, Len: 132
+5:837  0:000        (Dsdt: C95811C0, Facs: C99EAF40)
+5:837  0:000        C95811C0: 'DSDT', 'CSB00000', Rev: 2, Len: 62646
+5:838  0:001        C99EAF40: 'FACS', Ver: 0, Len: 64
+5:838  0:000    1. C9590788: 'APIC', 'PARADISE', Rev: 3, Len: 114
+5:838  0:000    2. C9590800: 'FPDT', 'PARADISE', Rev: 1, Len: 68
+5:838  0:000    3. C9590848: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+5:838  0:000    4. C9590A70: 'SSDT', 'zpodd', Rev: 1, Len: 399
+5:838  0:000    5. C9590C00: 'SLIC', 'PARADISE', Rev: 1, Len: 374
+5:838  0:000    6. C9590D78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+5:838  0:000    7. C95912B8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+5:838  0:000    8. C9591D90: 'MCFG', 'PARADISE', Rev: 1, Len: 60
+5:838  0:000    9. C9591DD0: 'HPET', 'PARADISE', Rev: 1, Len: 56
+5:838  0:000    10. C9591E08: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:838  0:000    11. C9592120: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+5:838  0:000    12. C95952E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+5:838  0:000    13. C95968C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+5:838  0:000    14. C9598358: 'BGRT', 'PARADISE', Rev: 1, Len: 56
