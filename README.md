@@ -1,5 +1,6 @@
 # Hackintosh黑苹果驱动Clover
-[![Platform](https://camo.githubusercontent.com/916c55f0c7c52e4cced22f1399f7f03b612c1a3c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d6d61726b646f776e2d7265642e737667)](https://shields.io/) [![License](https://camo.githubusercontent.com/400da804678761636d8a4f960a924124f329d038/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4343253230342e302d626c75652e737667)](https://creativecommons.org/licenses/by/4.0/) [![progress](https://camo.githubusercontent.com/b39a886d652e8a2148958f2fd779124d202be7e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70726f67726573732d646576656c6f70696e672d79656c6c6f772e737667)](https://camo.githubusercontent.com/b39a886d652e8a2148958f2fd779124d202be7e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70726f67726573732d646576656c6f70696e672d79656c6c6f772e737667) [![contributions](https://camo.githubusercontent.com/c1b0226f0394c41e42f2a1a7d9ed71bcc7d79ad7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d677265656e2e737667)](https://github.com/huangyz0918/Hackintosh-Installer-University)
+
+[![img](https://img.shields.io/github/stars/tsingui/clover-efi.svg?color=ff69b4&label=%E7%82%B9%E8%B5%9E&logoColor=ff69b4&style=social)](https://github.com/tsingui/clover-efi) [![img](https://img.shields.io/github/followers/tsingui.svg?label=%E7%B2%89%E4%B8%9D&logoColor=success&style=social)](https://github.com/tsingui/clover-efi) ![img](https://img.shields.io/github/contributors/tsingui/clover-efi.svg?color=red&label=%E8%B4%A1%E7%8C%AE%E4%BA%BA%E6%95%B0) [![img](https://img.shields.io/github/last-commit/tsingui/clover-efi.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/tsingui/clover-efi)
 
 Share some hackintosh Clover files.
 
@@ -286,11 +287,11 @@ Share some hackintosh Clover files.
 
 # 关于本项目
 
-大家可以一起来完善这个项目，我们一起让黑苹果安装越来越傻瓜化~ 
+欢迎大家一起来完善本项目，一起让黑苹果安装更加便捷！————————其它机型请提交至[本项目](https://github.com/tsingui/clover-efi) 
 
 # 二维码赞助
-@imfht大佬在issue里面反馈了赞助链接的问题~ emmm 受宠若惊 有点小紧张呢 如果觉得本项目帮助到你的话，请随意打赏，我们一起让这个项目更加完善。 
+如果觉得本项目帮助到你的话，请随意打赏，我们一起让这个项目更加完善。 
 ## 微信赞助
-![](http://image.3001.net/images/20180721/15321448021003.gif)    
+![](http://#)    
 ## 支付宝赞助
-![](http://image.3001.net/images/20180721/15321446416364.gif)  
+![](http://#)  
